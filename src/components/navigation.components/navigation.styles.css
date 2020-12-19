@@ -1,0 +1,19 @@
+.navbar {
+    padding: 0.8em; 
+    background-color: white;
+}
+.nav-link {
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+}
+.links {
+  color:black;
+}
+.links:hover {
+    color: red;
+}
+.navbar-brand {
+    border: 2px solid black;
+    font-size: 0.8rem;
+    font-family: 'Courier New', Courier, monospace;
+}

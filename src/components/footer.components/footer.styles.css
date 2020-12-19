@@ -1,0 +1,63 @@
+.footerSection {
+    display: flex;
+    justify-content: space-around;
+    padding: 1.5em;
+    width: 100%;
+    text-align: center;
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.5); 
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+.footerForm {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 12em;
+    line-height: 2em;
+}
+.footerForm textarea {
+    width: 100%;
+}
+.footerForm input {
+    margin-bottom: 1em;
+}
+.footerForm textarea, input::placeholder {
+    padding: 0.5em;
+    font-size: 0.8rem;
+}
+.footerForm button {
+    width: 100%;
+    border-radius: 2em;
+    border: none;
+    background-color: #1E06B2;
+    color: white;
+    font-weight: bold;
+}
+.footerHeader {
+    margin-bottom: 0.8em;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.socialMeadia {
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.circle {
+    /* display: flex;
+    align-items: center;
+    border: 2px solid red;
+    background-color: #E5FCFC;
+    width: 50%;
+    min-height: 100%; */
+    /* border-radius: 50%; */
+}
+.footerServices {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}

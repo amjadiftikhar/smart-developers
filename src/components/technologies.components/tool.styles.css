@@ -1,0 +1,19 @@
+.toolCard {
+    border: 2px solid yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 8em;
+    height: 8em;
+    background-color: white;
+    border-radius: 1em;
+    padding: 1em;
+    margin: 1em;
+}
+.toolSection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2em;
+}
