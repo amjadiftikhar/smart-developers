@@ -12,8 +12,10 @@
 .links:hover {
     color: red;
 }
-.navbar-brand {
-    border: 2px solid black;
-    font-size: 0.8rem;
-    font-family: 'Courier New', Courier, monospace;
+.navbar-brand:hover {
+  background-color: red;
+}
+.companyLogo {
+  width: 4em;
+  height: 1.8em;
 }

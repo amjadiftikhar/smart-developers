@@ -1,59 +1,79 @@
+import python from "../../images/python.png";
+import django from "../../images/django.png";
+import java from "../../images/java.png";
+import php from "../../images/php.png";
+import laravel from "../../images/python.png";
+import javascript from "../../images/javascript.png";
+import nodejs from "../../images/nodejs.png";
+import react from "../../images/react.png";
+import jQuery from "../../images/jQuery.png";
+import html from "../../images/html.png";
+import css from "../../images/css.png";
+import bootstrap from "../../images/bootstrap.png";
+import android from "../../images/android.png";
+import ios from "../../images/ios.png";
+import mySql from "../../images/mySql.png";
+
 const toolsObj = [
     {
         toolName: "Python",
-        toolImage: ""
+        toolImage: python
     },
     {
         toolName: "Django",
-        toolImage: ""
+        toolImage: django
     },
     {
         toolName: "Java",
-        toolImage: ""
+        toolImage: java
     },
     {
         toolName: "PHP",
-        toolImage: ""
+        toolImage: php
     },
     {
         toolName: "Laravel",
-        toolImage: ""
+        toolImage: laravel
     },
     {
         toolName: "Javascript",
-        toolImage: ""
+        toolImage: javascript
     },
     {
         toolName: "Nodejs",
-        toolImage: ""
+        toolImage: nodejs
     },
     {
         toolName: "React",
-        toolImage: ""
+        toolImage: react
     },
     {
         toolName: "jQuery",
-        toolImage: ""
+        toolImage: jQuery
     },
     {
         toolName: "HTML5",
-        toolImage: ""
+        toolImage: html
     },
     {
         toolName: "CSS3",
-        toolImage: ""
+        toolImage: css
     },
     {
         toolName: "Bootstrap",
-        toolImage: ""
+        toolImage: bootstrap
     },
     {
         toolName: "Android",
-        toolImage: "Apple"
+        toolImage: android
+    },
+    {
+        toolName: "IOS",
+        toolImage: ios
     },
     {
         toolName: "MySql",
-        toolImage: ""
+        toolImage: mySql
     }
 ];
 

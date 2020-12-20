@@ -1,5 +1,6 @@
 import React from 'react';
 import {Nav, Navbar, NavLink} from "react-bootstrap";
+import logo from "../../images/logo.png";
 // import { withRouter } from "react-router";
 import "./navigation.styles.css";
 
@@ -7,8 +8,7 @@ const NavigationBar = () => {
     return (
         <Navbar expand="lg">
             <Navbar.Brand href="/">
-                smart-developers
-              <img src="" alt=""/>
+              <img className="companyLogo" src={logo} alt=""/>
             </Navbar.Brand>
             <Navbar.Toggle className="toggle bg-light" 
               aria-controls="navbar-toggle"/>
