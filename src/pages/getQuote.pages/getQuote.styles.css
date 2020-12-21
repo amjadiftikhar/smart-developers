@@ -3,11 +3,13 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    padding-top: 2em;
+    padding: 4em;
 }
 .detailSection {
-    padding-left: 4em;
-    width: 35%;
+    /* padding-left: 4em;
+    padding-top: 1em; */
+    width: 50%;
+    align-self: flex-start;
     display: flex;
     flex-direction: column;
 }
@@ -15,13 +17,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 1em;
-    width: 60%;
+    /* padding: 1em; */
+    width: 40%;
 }
 .submitBtn {
-    align-self: center;
+    /* align-self: 0 auto; */
     background-color: blue;
-    padding: 0.3em 15em;
+    padding: 0.2em 4.6em;
     border-radius: 2em;
     font-weight: bold;
 }

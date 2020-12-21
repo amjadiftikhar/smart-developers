@@ -37,12 +37,12 @@ function GetQuote() {
                     </Form.Row>
                     <Form.Row>
                         <Form.Group as={Col} controlId="formGridCity">
-                        <Form.Label>What does your business do?</Form.Label>
-                        <Form.Control placeholder="Website design" />
+                            <Form.Label>Type of your business?</Form.Label>
+                            <Form.Control as="textarea" rows={3} /> 
                         </Form.Group>
                         <Form.Group as={Col} controlId="formGridState">
-                        <Form.Label>Additional informations</Form.Label>
-                        <Form.Control placeholder="Additional information here!" />
+                            <Form.Label>Additional informations</Form.Label>
+                            <Form.Control as="textarea" rows={3} />                    
                         </Form.Group>
                     </Form.Row>
                     <Button className="submitBtn" type="submit">

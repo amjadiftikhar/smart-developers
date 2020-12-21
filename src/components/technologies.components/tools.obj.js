@@ -2,7 +2,7 @@ import python from "../../images/python.png";
 import django from "../../images/django.png";
 import java from "../../images/java.png";
 import php from "../../images/php.png";
-import laravel from "../../images/python.png";
+import laravel from "../../images/laravel.png";
 import javascript from "../../images/javascript.png";
 import nodejs from "../../images/nodejs.png";
 import react from "../../images/react.png";
