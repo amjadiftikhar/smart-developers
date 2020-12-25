@@ -8,20 +8,20 @@ function App() {
   return (
     <div>
       <React.Fragment>
-      <NavigationBar/>
-      <Layout style={{display:"flex", flexDirection:"column"}} fluid={true}>
-        <Router>
-          <Switch>
-            <Route exact path="/"  component={Home} />
-            <Route exact path="/about"  component={About} />
-            <Route exact path="/services"  component={Services} />
-            <Route exact path="/portfolio"  component={Portfolio} />
-            <Route exact path="/contact"  component={Contact} />
-            <Route exact path="/getQuote"  component={GetQuote} />
-          </Switch>
-        </Router>
-      </Layout>
-      <Footer/>        
+          <Router>
+          <NavigationBar/>
+        <Layout style={{display:"flex", flexDirection:"column"}} fluid={true}>
+            <Switch>
+              <Route exact={true} path="/"  component={Home} />
+              <Route exact={true} path="/about"  component={About} />
+              <Route exact={true} path="/services"  component={Services} />
+              <Route exact={true} path="/portfolio"  component={Portfolio} />
+              <Route exact={true} path="/contact"  component={Contact} />
+              <Route exact={true} path="/getQuote"  component={GetQuote} />
+            </Switch>
+        </Layout>
+          </Router>
+        <Footer/>        
     </React.Fragment>
     </div>
   );

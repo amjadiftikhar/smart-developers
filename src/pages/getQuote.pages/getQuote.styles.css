@@ -1,4 +1,5 @@
 .getQuoteSection {
+    margin-top: 7em;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -6,8 +7,6 @@
     padding: 4em;
 }
 .detailSection {
-    /* padding-left: 4em;
-    padding-top: 1em; */
     width: 50%;
     align-self: flex-start;
     display: flex;
@@ -17,11 +16,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    /* padding: 1em; */
     width: 40%;
 }
 .submitBtn {
-    /* align-self: 0 auto; */
     background-color: blue;
     padding: 0.2em 4.6em;
     border-radius: 2em;

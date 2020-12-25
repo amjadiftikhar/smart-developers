@@ -7,9 +7,11 @@ function Tools() {
     return (
         <div className="toolSection">
             {
-            toolsObj.map(t => {
+            toolsObj.map((t, index) => {
                 return(
-                    <Tool toolName={t.toolName} toolImage={t.toolImage}/>
+                    <Tool key={index} toolName={t.toolName} 
+                        toolImage={t.toolImage}
+                    />
                 )
             })
             }

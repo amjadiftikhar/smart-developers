@@ -1,19 +1,18 @@
 .navbar {
-    padding: 0.8em; 
-    background-color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 0.8em; 
+  background-color: white;
 }
 .nav-link {
+  color: black!important;
+  font-size: 0.9rem;
   font-weight: bold;
   font-family: 'Courier New', Courier, monospace;
 }
-.links {
-  color:black;
-}
-.links:hover {
-    color: red;
-}
 .navbar-brand:hover {
-  background-color: red;
+  background-color: gold;
 }
 .companyLogo {
   width: 4em;

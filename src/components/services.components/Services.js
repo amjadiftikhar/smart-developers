@@ -1,13 +1,16 @@
 import React from 'react';
 import Service from "./ServiceCard";
 import servicesObj from "./services.obj";
+import "./service.styles.css"
 
 function Services() {
     return (
         <div className="serviceSection">
-        { servicesObj.map(s => {
+        { servicesObj.map((s, index) => {
             return (
-                <Service title={s.title} description={s.description}/>
+                <Service key={index} title={s.title} 
+                    description={s.description}
+                />
             )
         }) }
     </div>

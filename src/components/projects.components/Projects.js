@@ -7,9 +7,9 @@ function Projects() {
     return (
         <div className="projectSection">
             {
-            projectsObj.map(p => {
+            projectsObj.map((p, index) => {
                 return (
-                    <ProjectCard 
+                    <ProjectCard key={index}
                     projectImage={p.projectImage}
                     projectTitle={p.projectTitle}
                     description={p.description} 

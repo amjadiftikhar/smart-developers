@@ -1,10 +1,10 @@
 import React from 'react';
-import {Form, Col, Button} from "react-bootstrap"
+import {Container, Form, Col, Button} from "react-bootstrap";
 import "./getQuote.styles.css";
 
 function GetQuote() {
     return (
-        <div className="getQuoteSection">
+        <Container className="getQuoteSection">
             <div className="detailSection">
                     <h4 className="query">Get a Quote</h4>
                     <p className="clientInfo">
@@ -50,7 +50,7 @@ function GetQuote() {
                     </Button>
                 </Form>            
             </div>
-        </div>
+        </Container>
     )
 }
 

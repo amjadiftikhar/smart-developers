@@ -1,10 +1,12 @@
-import React from 'react'
+import React from 'react';
+import {Container} from "react-bootstrap";
+import "./contactPage.styles.css";
 
 const Contact = () => {
     return (
-        <div>
+        <Container className="contactPageContainer">
             <h1>Contact Us Page</h1>
-        </div>
+        </Container>
     )
 }
 

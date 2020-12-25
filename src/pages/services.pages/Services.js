@@ -1,10 +1,12 @@
-import React from 'react'
+import React from 'react';
+import {Container} from "react-bootstrap";
+import "./servicesPage.styles.css";
 
 const Services = () => {
     return (
-        <div>
+        <Container className="servicesPageSection">
             <h2>Services Page</h2>
-        </div>
+        </Container>
     )
 }
 
