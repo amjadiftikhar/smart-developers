@@ -1,13 +1,18 @@
-.bannerSection img {
+.heroSection {
     width: 100%;
-    height: 16em;
+    display: flex;
+    flex-direction: column;
 }
-.weDevelop {
+.mainSection {
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
     background-color: white;
+}
+.bannerSection img {
+    width: 100%;
+    height: 16em;
 }
 .imageContainer {
     position: relative;
@@ -15,10 +20,10 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 50%;
+    width: 25em;
 }
 .imageContainer img {
-    width: 25em;
+    width: 100%;
 }
 .imageContainer h2 {
     font-weight: bold;
@@ -35,26 +40,25 @@
     width: 100%;
     padding: 3em;
 }
-.getQuoteBtn {
+.getQuoteSection {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     padding: 2em;
-    width: 50%;
+    width: 60%;
 }
-.getQuoteBtn p {
+.getQuoteSection p {
     color: #048E86;
 }
 .weFocus {
     text-align: center;
-    /* font-weight: bold; */
     font-size: 0.8rem;
 }
 .devTeam {
     font-size: 0.9rem;
 }
-.getQuoteBtn button {
+.getQuoteSection button {
     margin-top: 6em;
     padding: 0.4em 3em;
     border-radius: 1.5em;
@@ -64,6 +68,6 @@
     font-size: 1rem;
     font-weight: bold;
 }
-.getQuoteBtn button:focus {
+.getQuoteSection button:focus {
     outline: none !important;
 }
