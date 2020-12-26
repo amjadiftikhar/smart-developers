@@ -11,10 +11,15 @@
   font-weight: bold;
   font-family: 'Courier New', Courier, monospace;
 }
+.active {
+  background-color: #1E06B2!important;
+  color: white!important;
+  font-weight: 'bold'!important;
+}
 .navbar-brand:hover {
-  background-color: gold;
+  background-color:  #1E06B2;
 }
 .companyLogo {
   width: 4em;
-  height: 1.8em;
+  height: 1.6em;
 }

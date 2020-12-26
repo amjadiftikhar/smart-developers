@@ -1,24 +1,24 @@
 import React from 'react';
-import {Container, Form, Col, Button} from "react-bootstrap";
+import {Form, Col, Button} from "react-bootstrap";
 import "./getQuote.styles.css";
 
 function GetQuote() {
     return (
-        <Container className="getQuoteSection">
+        <div className="getQuoteContainer">
             <div className="detailSection">
-                    <h4 className="query">Get a Quote</h4>
-                    <p className="clientInfo">
-                        Based on your business requirements and the  informations   provided, we will be able to calculate a cost and the time    frame, if you like to use our services 
-                    </p>
-                    <h4 className="query">Have any other questions?</h4>
-                    <p className="clientInfo">abc@test.com</p>
+                <h4 className="query">Get a Quote</h4>
+                <p className="clientInfo">
+                    Based on your business requirements and the informations provided, we will be able to calculate a cost and the time frame, if you like to use our services 
+                </p>
+                <h4 className="query">Have any other questions?</h4>
+                <p className="clientInfo">abc@test.com</p>
             </div>
             <div className="formSection">
                 <Form>
                     <Form.Row>
                         <Form.Group as={Col} controlId="formGridEmail">
-                        <Form.Label>Name</Form.Label>
-                        <Form.Control type="full name" placeholder="Full name" />
+                            <Form.Label>Name</Form.Label>
+                            <Form.Control type="full name" placeholder="Full name" />
                         </Form.Group>
                         <Form.Group as={Col} controlId="formGridPassword">
                             <Form.Label>Email</Form.Label>
@@ -50,7 +50,7 @@ function GetQuote() {
                     </Button>
                 </Form>            
             </div>
-        </Container>
+        </div>
     )
 }
 
