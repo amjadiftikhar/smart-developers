@@ -4,6 +4,7 @@ import pkInsaf from "../../images/pkInsaf.png";
 import pakSiasat from "../../images/pakSiasat.png";
 import amgsac from "../../images/amgsac.png";
 import qabros from "../../images/qabros.png";
+import daniaz from "../../images/daniaz.png";
 
 const projectsObj = [
     {
@@ -35,6 +36,11 @@ const projectsObj = [
         projectImage: qabros,
         projectTitle: "Recycling",
         description: "afra aruqujj j sfajs jfjsj wjfjjarjw"
+    },
+    {
+        projectImage: daniaz,
+        projectTitle: "Daniaz Kitchen",
+        description: "ajfhahh aijfhahhh ahfahhfjh hf"
     }
 ];
 
