@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    padding: 5em;
 }
 .projectCard {
     display: flex;
@@ -10,7 +11,7 @@
     border: 2px solid rgb(252, 220, 220);
     width: 20em;
     height: 20em;
-    margin: 2em 0 2em 0;
+    margin: 4em 0 1em 1em;
     background-color: white;
     border-radius: 1em;
 }

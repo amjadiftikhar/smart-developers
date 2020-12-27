@@ -4,7 +4,7 @@ import "aos/dist/aos.css";
 
 function ProjectCard(props) {
     useEffect(() => {
-        Aos.init({duration: 2000});
+        Aos.init({duration: 3000});
     }, [])
     return (
         <div className="projectCard">

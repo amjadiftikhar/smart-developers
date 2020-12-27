@@ -7,12 +7,15 @@ import "./banner.styles.css";
 
 function Banner() {
     useEffect(() => {
-        Aos.init({duration: 5000});
+        Aos.init({duration: 3000});
     }, [])
     return (
         <div className="heroSection">
             <div className="bannerSection">
-                <img src={bannerImage} alt=""/>
+                <div className="motivation">
+                    <p className="bannerDescription">WE ARE A TEAM OF PROFESSIONALS WHO BUILDS GREAT SOFTWARE</p>
+                </div>
+                <img className="bannerImage" src={bannerImage} alt=""/>
             </div>
             <div className="mainSection" data-aos="fade-down">
                 <div className="imageContainer">

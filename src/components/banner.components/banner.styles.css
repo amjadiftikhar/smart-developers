@@ -14,6 +14,22 @@
     width: 100%;
     height: 16em;
 }
+.bannerSection {
+    position: relative;
+}
+.bannerSection .motivation {
+    position: absolute;
+    background: rgb(231, 231, 233); 
+    background: rgba(231, 231, 233, 0.8);
+    width: 75%;
+    top: 25%;
+    padding: 3em;
+}
+.bannerDescription {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
 .imageContainer {
     position: relative;
     display: flex;
