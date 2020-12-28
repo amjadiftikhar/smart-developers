@@ -1,7 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import Aos from "aos";
 import "aos/dist/aos.css";
-// import {ShowHide} from "./ShowHide"
 
 function ProjectCard(props) {
     const [projDescription, toggleProjDescription] = useState(false)
@@ -12,7 +11,7 @@ function ProjectCard(props) {
 
     function handleFnc(e){
         e.preventDefault();
-        toggleProjDescription(projDescription=>!projDescription);
+        toggleProjDescription(projDescription => !projDescription);
         setHide (hide => !hide )    
     }
     return (
@@ -22,9 +21,9 @@ function ProjectCard(props) {
             <span data-aos="fade-left" className="projectTitle">
                 {props.projectTitle}
             </span>
-            <a data-aos="fade-right" className="showDescription" href="" 
-                onClick={handleFnc}>
-                    {hide ? 'more details...' : 'hide details >>'}                
+            <a data-aos="fade-right" className="showDescription" 
+                href="" onClick={handleFnc}>
+                {hide ? 'more details...' : 'hide details >>'}                
             </a>
             <p className="projectDescription">
                 {projDescription && props.description}
