@@ -23,7 +23,8 @@ function Banner() {
                     <div className="content">
                         <h2>We Develop</h2>
                         <p className="weFocus">We focus on quality & 
-                            Cost-Effective solution</p>
+                            Cost-Effective solution
+                        </p>
                     </div>
                 </div>
                 <div className="getQuoteSection" data-aos="fade-left">
@@ -31,7 +32,7 @@ function Banner() {
                     <p className="devTeam">Find a development team to 
                         get the best development solutions
                     </p>
-                    <button>Get a Quote</button>
+                    <a href="/contact">Contact us</a>
                 </div>
             </div>
         </div>

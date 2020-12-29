@@ -74,16 +74,18 @@
 .devTeam {
     font-size: 0.9rem;
 }
-.getQuoteSection button {
+.getQuoteSection a {
     margin-top: 6em;
-    padding: 0.4em 3em;
-    border-radius: 1.5em;
+    height: 1.6em;
+    width: 10em;
+    text-align: center;
+    border-radius: 1.6em;
     border: none;
     background-color: #1E06B2;
     color: white;
-    font-size: 1rem;
-    font-weight: bold;
+    font-size: 0.9rem;
+    text-decoration: none;
 }
-.getQuoteSection button:focus {
+.getQuoteSection a:focus {
     outline: none !important;
 }
