@@ -6,7 +6,7 @@ import ProfileCard from "./ProfileCard";
 function Profiles() {
     return (
         <Container className="profileSection">
-            <h1 className="sectionTitle">MEET OUR PROFESSIONALS</h1>
+            <h1 className="sectionTitle">MEET OUR TEAM</h1>
             <Container className="profilesContainer">
                 {
                     profilesObj.map((p, index) => {

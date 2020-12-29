@@ -1,4 +1,4 @@
-import mobilTilbud from "../../images/mobilTilbud.png";
+import faisalAkhlaq from "../../images/faisalAkhlaq.png";
 import amjadIftikhar from "../../images/amjadIftikhar.jpg";
 import pkInsaf from "../../images/pkInsaf.png";
 import pakSiasat from "../../images/pakSiasat.png";
@@ -8,7 +8,7 @@ import daniaz from "../../images/daniaz.png";
 
 const profilesObj = [
     {
-        profileImage: mobilTilbud,
+        profileImage: faisalAkhlaq,
         profileTitle: "Faisal Akhlaq",
         personalInfo: "Backend Developer"
     },
