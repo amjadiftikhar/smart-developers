@@ -4,18 +4,34 @@
     flex-wrap: wrap;
     justify-content: space-around;
 }
+.cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
 .serviceCard {
     display: flex;
     align-items: center;
     justify-content: space-around;
     flex-direction: column;    
-    border: 2px solid rgb(252, 220, 220);
     background-color: white;
-    width: 20em;
+    width: 15em;
     height: 20em;
     margin: 2em 0 2em 0;
     border-radius: 1em;
     padding: 1em;
+}
+.serviceDescription {
+    width: 45%;
+    margin-right: 5%;
+}
+.showSearviceDescription {
+    margin-left: 0.5rem;
+    color: #048E86;
+}
+.showSearviceDescription:hover {
+    color: blue;
 }
 .cardTitle {
     font-size: 1rem;

@@ -1,11 +1,11 @@
 import React from 'react';
-import {Form, Col, Button} from "react-bootstrap";
+// import {Form, Col, Button} from "react-bootstrap";
 import "./getQuote.styles.css";
 
 function GetQuote() {
     return (
         <div className="getQuoteContainer">
-            <div className="detailSection">
+            {/* <div className="detailSection">
                 <h4 className="query">Get a Quote</h4>
                 <p className="clientInfo">
                     Based on your business requirements and the informations provided, we will be able to calculate a cost and the time frame, if you like to use our services 
@@ -49,7 +49,7 @@ function GetQuote() {
                         Submit
                     </Button>
                 </Form>            
-            </div>
+            </div> */}
         </div>
     )
 }

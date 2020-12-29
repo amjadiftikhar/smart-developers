@@ -1,3 +1,49 @@
-.contactPageContainer {
+.contactContainer {
+    width: 100%;
     margin-top: 7em;
+    padding: 3em;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+}
+.detailSection {
+    width: 30%;
+    align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+}
+.offers {
+    margin-top: 7em;
+}
+.offers > span {
+    padding-right: 0.5em;
+}
+.hello {
+    background-color: blue;
+    color: white;
+    font-size: large;
+    margin-right: 0.6em;
+}
+.formSection { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+}
+.contactForm {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.inputFields {
+    width: 100%;
+}
+.submitBtn {
+    width: 6em;
+    background-color: blue;
+    font-weight: 500;
+    margin-left: auto;
+    margin-bottom: 1em;
 }
