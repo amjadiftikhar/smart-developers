@@ -21,7 +21,7 @@ const Header = (props) => {
           <LinkContainer to="/services"><NavLink>Services</NavLink></LinkContainer>
           <LinkContainer to="/portfolio"><NavLink>Portfolio</NavLink></LinkContainer>
           <LinkContainer to="/contact"><NavLink>Contact</NavLink></LinkContainer>
-          <LinkContainer to="/getQuote"><NavLink>Get a quote</NavLink></LinkContainer>
+          {/* <LinkContainer to="/getQuote"><NavLink>Get a quote</NavLink></LinkContainer> */}
         </Nav>
       </Navbar.Collapse>
     </Navbar>

@@ -17,7 +17,7 @@ function App() {
               <Route exact={true} path="/services"  component={Services} />
               <Route exact={true} path="/portfolio"  component={Portfolio} />
               <Route exact={true} path="/contact"  component={Contact} />
-              <Route exact={true} path="/getQuote"  component={GetQuote} />
+              {/* <Route exact={true} path="/getQuote"  component={GetQuote} /> */}
             </Switch>
         </Layout>
           </Router>
