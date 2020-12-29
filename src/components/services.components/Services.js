@@ -20,13 +20,6 @@ function Services() {
 
     return (
         <div className="serviceSection">
-            {/* { servicesObj.map((s, index) => {
-            return (
-                <Service key={index} title={s.title} 
-                    description={s.description}                    
-                />
-            )
-            })} */}
             <div className="cardContainer">
                 <div className="serviceDescription">
                     <h2 className="cardTitle" data-aos="fade-down">Software Development</h2>
@@ -39,7 +32,7 @@ function Services() {
                         </span>}
                         <a data-aos="fade-right" className="showSearviceDescription" href="" 
                             onClick={handleFnc}>
-                            {hide ? 'more details...' : 'hide details >>'}                
+                            {hide ? 'see more...' : 'hide >>'}                
                         </a>
                     </p>
                     
