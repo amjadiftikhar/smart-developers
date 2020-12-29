@@ -1,3 +1,11 @@
+.caseStudyTitle {
+    background: rgb(246, 246, 248); 
+    background: rgba(207, 207, 209, 0.8);
+    width: 50%;
+    padding: 1.5em;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
 .projectSection {
     display: flex;
     justify-content: space-around;
@@ -12,6 +20,9 @@
     margin: 4em 0 1em 1em;
     background-color: white;
     border-radius: 1em;
+    box-shadow: 
+    12px 12px 16px 0 rgba(255, 255, 255, 0.3) inset,
+    -8px -8px 12px 0 rgba(0, 0, 0, .25) inset;
 }
 .projectImage {
     width: 100%;
