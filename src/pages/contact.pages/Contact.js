@@ -28,23 +28,27 @@ function Contact() {
                     <Form.Row>
                         <Form.Group as={Col} controlId="formGridEmail">
                             <Form.Label>Name</Form.Label>
-                            <Form.Control type="full name" placeholder="Your name" />
+                            <Form.Control className="inputFields" type="full name" 
+                            placeholder="Your name" />
                         </Form.Group>
                         <Form.Group as={Col} controlId="formGridPassword">
                             <Form.Label>Your email</Form.Label>
-                            <Form.Control type="email" placeholder="abc@example.com" />
+                            <Form.Control className="inputFields" type="email" 
+                            placeholder="abc@example.com" />
                         </Form.Group>
                     </Form.Row>
                     <Form.Row>
                     <Form.Group as={Col} controlId="formGridAddress1">
                         <Form.Label>Phone number (optional)</Form.Label>
-                        <Form.Control className="inputFields" placeholder="Contact number" />
+                        <Form.Control className="inputFields" 
+                        className="inputFields" placeholder="Contact number" />
                     </Form.Group>
                     </Form.Row>
                     <Form.Row>
                         <Form.Group as={Col} controlId="formGridState">
                             <Form.Label>Your message*</Form.Label>
-                            <Form.Control as="textarea" rows={6} className="inputFields"
+                            <Form.Control as="textarea" rows={6} 
+                                className="inputFields"
                                 placeholder="Software needs for your business" />                    
                         </Form.Group>
                     </Form.Row>
