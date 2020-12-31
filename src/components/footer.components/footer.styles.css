@@ -28,7 +28,8 @@
 }
 .footerLinks:hover {
     text-decoration: none;
-    color: blue;
+    color: rgb(190, 188, 188);
+    font-weight: bold;
 }
 .socialMeadia {
     z-index: 1;

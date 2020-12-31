@@ -1,6 +1,6 @@
 import faisalAkhlaq from "../../images/faisalAkhlaq.png";
 import amjadIftikhar from "../../images/amjadIftikhar.jpg";
-import pkInsaf from "../../images/pkInsaf.png";
+import rajaEjaz from "../../images/rajaEjaz.jpg";
 import pakSiasat from "../../images/pakSiasat.png";
 import amgsac from "../../images/amgsac.png";
 import qabros from "../../images/qabros.png";
@@ -18,7 +18,7 @@ const profilesObj = [
         personalInfo: "Frontend Developer"
     },
     {
-        profileImage: pkInsaf,
+        profileImage: rajaEjaz,
         profileTitle: "Raja Ejaz",
         personalInfo: "Full Stack Developer"
     },

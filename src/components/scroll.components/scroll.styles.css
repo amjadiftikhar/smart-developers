@@ -1,0 +1,50 @@
+/* scroll to down button style   */
+.scrollToDown {
+    position: fixed;
+    top: 21em;
+    left: 50%;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background: rgb(187, 9, 9);
+    color: #ffffff;
+    z-index: 2;
+}
+.scrollToDown:hover {
+    text-rendering: "Scroll down";
+}
+.iconDown {
+    font-size: 19px;
+}
+.scrollToDown .iconDown {
+    margin-top: 10px;
+    animation: scrollTo 0.5s alternate ease infinite;
+}
+/* scroll to top button style   */
+.scrollToTop {
+    position: fixed;
+    bottom: 12px;
+    left: 50%;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background: rgb(187, 9, 9);
+    color: #ffffff;
+    z-index: 2;
+    cursor: pointer;
+}
+.icon {
+    font-size: 19px;
+}
+.scrollToTop .icon {
+    margin-top: 10px;
+    animation: scrollTo 0.5s alternate ease infinite;
+}
+@keyframes scrollTo{
+    from{
+        transform: translateY(2px);
+    }
+    to{
+        transform: translateY(-1px);
+    }
+}

@@ -1,13 +1,17 @@
 import React from 'react';
+import Projects from "../projects.components/Projects";
 import "./footer.styles.css"
 
-function Footer() {
+function Footer() {    
+//    const portfolioSection = useRef(null)
+//    const executeScroll = () => portfolioSection.current.scrollIntoView() 
+    const goToPortfolioSection = () => window.scrollTo(Projects)
     return (
         <div className="footer">
             <div className="footerSection">
                 <div className="footerAboutUs">
                     <h3 className="footerHeader">About</h3>
-                    <a className="footerLinks" href="#">Portfolio</a>
+                    <a className="footerLinks" href="" onClick={goToPortfolioSection}>Portfolio</a>
                     <a className="footerLinks" href="/about">Team</a>
                     <a className="footerLinks" href="/contact">Contact</a>
                 </div> 

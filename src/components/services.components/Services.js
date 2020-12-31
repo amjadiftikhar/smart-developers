@@ -7,6 +7,8 @@ import "./service.styles.css"
 
 function Services() {    
     const [serviceDescription, toggleServiceDescription] = useState(false)
+    const [psd, toggleServiceDescription1] = useState(false)
+
     const [hide, setHide] = useState(true)
     useEffect(() => {
         Aos.init({duration: 2000});
@@ -14,7 +16,9 @@ function Services() {
 
     function handleFnc(e, index){
         e.preventDefault();
-        toggleServiceDescription(serviceDescription => !serviceDescription);
+        console.log("target ssss",e.target.id)
+        let id ='p' + e.target.id;
+        toggleServiceDescription1(id => !id);
         setHide (hide => !hide )    
     }
 
@@ -23,14 +27,14 @@ function Services() {
             <div className="cardContainer">
                 <div className="serviceDescription">
                     <h2 className="cardTitle" data-aos="fade-down">Software Development</h2>
-                    <p className="cardDescription" data-aos="fade-up">
+                    <p id="psd" className="cardDescription" data-aos="fade-up">
                         We are specialized in software development across a 
                         full range of trendy technologies 
-                        {serviceDescription && <span id="1">from frontend to backend. We are focused on ever 
+                        {psd && <span id="1">from frontend to backend. We are focused on ever 
                             best user experience and our developers have an 
                             extensive understanding and experience.
                         </span>}
-                        <a data-aos="fade-right" className="showSearviceDescription" href="" 
+                        <a id="sd" data-aos="fade-right" className="showSearviceDescription" href="" 
                             onClick={handleFnc}>
                             {hide ? 'see more...' : 'hide >>'}                
                         </a>
