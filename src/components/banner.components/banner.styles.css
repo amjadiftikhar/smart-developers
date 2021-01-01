@@ -15,14 +15,15 @@
     height: 16em;
 }
 .bannerSection {
+    width: 100%;
     position: relative;
 }
-.bannerSection .motivation {
+.motivation {
     position: absolute;
     background: rgb(231, 231, 233); 
     background: rgba(231, 231, 233, 0.8);
     width: 75%;
-    top: 15%;
+    top: 3.4em;
     padding: 3em;
 }
 .bannerDescription {
