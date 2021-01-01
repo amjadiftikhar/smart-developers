@@ -16,8 +16,6 @@ function Services() {
 
     function handleFnc(e, index){
         e.preventDefault();
-        console.log("target ssss",e.target.id)
-        let id ='p' + e.target.id;
         toggleServiceDescription1(id => !id);
         setHide (hide => !hide )    
     }
