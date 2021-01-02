@@ -1,14 +1,14 @@
 import React, {useEffect, useState} from 'react';
-// import Service from "./ServiceCard";
-// import servicesObj from "./services.obj";
+import mobileDevelopment from "../../images/mobileDevelopment.jpg";
+import softwareDevelopment from "../../images/softwareDevelopment.jpg";
+import dedicatedTeam from "../../images/dedicatedTeam.png";
+import softwareTool from "../../images/softwareTool.png";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import "./service.styles.css"
 
 function Services() {    
     const [serviceDescription, toggleServiceDescription] = useState(false)
-    const [psd, toggleServiceDescription1] = useState(false)
-
     const [hide, setHide] = useState(true)
     useEffect(() => {
         Aos.init({duration: 2000});
@@ -16,42 +16,47 @@ function Services() {
 
     function handleFnc(e, index){
         e.preventDefault();
-        toggleServiceDescription1(id => !id);
+        toggleServiceDescription(serviceDescription => !serviceDescription);
         setHide (hide => !hide )    
     }
 
     return (
-        <div className="serviceSection">
+    <>
+        <div className="servicesTitle">
+                <p className="caseStudyDescription">OUR SERVICES</p>
+        </div>
+        <div className="serviceSection">            
             <div className="cardContainer">
                 <div className="serviceDescription">
                     <h2 className="cardTitle" data-aos="fade-down">Software Development</h2>
-                    <p id="psd" className="cardDescription" data-aos="fade-up">
+                    <p className="cardDescription" data-aos="fade-up">
                         We are specialized in software development across a 
                         full range of trendy technologies 
-                        {psd && <span id="1">from frontend to backend. We are focused on ever 
+                        {serviceDescription && <span id="1">from frontend to backend. We are focused on ever 
                             best user experience and our developers have an 
                             extensive understanding and experience.
                         </span>}
-                        <a id="sd" data-aos="fade-right" className="showSearviceDescription" href="" 
+                        <a data-aos="fade-right" className="showSearviceDescription" href="" 
                             onClick={handleFnc}>
                             {hide ? 'see more...' : 'hide >>'}                
                         </a>
-                    </p>
-                    
+                    </p>                    
                 </div>
                 <div className="serviceCard" data-aos="fade-right">
+                    <img className="serviceImage" src={softwareDevelopment} alt=""/>
                 </div>
             </div>
             <div className="cardContainer">
                 <div className="serviceCard" data-aos="fade-left">
+                    <img className="serviceImage" src={mobileDevelopment} alt=""/>
                 </div>
                 <div className="serviceDescription">
                     <h2 className="cardTitle" data-aos="fade-down">Mobile App Development</h2>
                     <p className="cardDescription" data-aos="fade-up">
                         Mobile apps are considered to be one of the most powerful 
-                        tools for contacting the target 
+                        tools for contacting  
                         {serviceDescription && 
-                        <span>audience in terms of business. We build windows, ios 
+                        <span>the target audience in terms of business. We build windows, ios 
                             and android apps.With best UI/UX design we ensure to 
                             extend the reach of your business to mobile users.
                         </span>}
@@ -67,9 +72,9 @@ function Services() {
                     <h2 className="cardTitle" data-aos="fade-down">IT Support</h2>
                     <p className="cardDescription" data-aos="fade-up">
                         Our experts provide on-site and remote technical support 
-                        to your business and personal user 
+                        to your business and  
                         {serviceDescription && 
-                        <span>support. We support removing a virus infection, figuring 
+                        <span>personal user support. We support removing a virus infection, figuring 
                             out why your computer is running slow, having software 
                             configured and setting up a new machine.
                         </span> }
@@ -80,18 +85,20 @@ function Services() {
                     </p>
                 </div>
                 <div className="serviceCard" data-aos="fade-right">
+                    <img className="serviceImage" src={softwareTool} alt=""/>
                 </div>
             </div>
             <div className="cardContainer">
                 <div className="serviceCard" data-aos="fade-left">
+                    <img className="serviceImage" src={dedicatedTeam} alt=""/>
                 </div>
                 <div className="serviceDescription">
                     <h2 className="cardTitle" data-aos="fade-down">Hire a dedicated team or developer</h2>
                     <p className="cardDescription" data-aos="fade-up">
                         Customers come first and if you think you need a dedicated 
-                        developer or a dedicated team 
+                        developer or a 
                         {serviceDescription && 
-                        <span>to work on your project for a time frame, then you are 
+                        <span>dedicated team to work on your project for a time frame, then you are 
                             at the right place. We make it possible for you to choose 
                             a colleague for you who will help you through the technical 
                             journey.
@@ -104,6 +111,7 @@ function Services() {
                 </div>
             </div> 
         </div>
+        </>
     );
 }
 
