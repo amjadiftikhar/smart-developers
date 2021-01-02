@@ -15,7 +15,7 @@ function Footer() {
             <div className="footerSection">
                 <div className="footerAboutUs">
                     <h3 className="footerHeader">About</h3>
-                    <a className="footerLinks" href="" 
+                    <a className="footerLinks" href="/portfolio" 
                         onClick={goToPortfolioSection}>
                         Portfolio
                     </a>
@@ -37,7 +37,7 @@ function Footer() {
                     <h3 className="footerHeader">Social Media</h3> 
                     <div className="socialMeadiaLinks">              
                         <a className="footerLinks" href="#">
-                            <FaFacebookF className="socialMediaIcon"/>
+                            <FaFacebookF className="socialMediaIcon"/>                            
                         </a>
                         <a className="footerLinks" href="#">
                             <FaLinkedinIn className="socialMediaIcon"/>
