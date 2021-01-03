@@ -13,6 +13,7 @@ import bootstrap from "../../images/bootstrap.png";
 import android from "../../images/android.png";
 import ios from "../../images/ios.png";
 import mySql from "../../images/mySql.png";
+import postgresql from "../../images/postgresql.png";
 
 const toolsObj = [
     {
@@ -74,6 +75,10 @@ const toolsObj = [
     {
         toolName: "MySql",
         toolImage: mySql
+    },
+    {
+        toolName: "Postgresql",
+        toolImage: postgresql
     }
 ];
 
