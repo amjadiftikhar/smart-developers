@@ -1,5 +1,4 @@
 import React from 'react';
-import Projects from "../projects.components/Projects";
 import {FaFacebookF} from "react-icons/fa";
 import {FaLinkedinIn} from "react-icons/fa";
 import {FaTwitter} from "react-icons/fa";
@@ -7,16 +6,12 @@ import {FaInstagramSquare} from "react-icons/fa";
 import "./footer.styles.css"
 
 function Footer() {    
-//    const portfolioSection = useRef(null)
-//    const executeScroll = () => portfolioSection.current.scrollIntoView() 
-    const goToPortfolioSection = () => window.scrollTo(Projects)
     return (
         <div className="footer">
             <div className="footerSection">
                 <div className="footerAboutUs">
                     <h3 className="footerHeader">About</h3>
-                    <a className="footerLinks" href="/portfolio" 
-                        onClick={goToPortfolioSection}>
+                    <a className="footerLinks" href="/portfolio">
                         Portfolio
                     </a>
                     <a className="footerLinks" href="/about">Team</a>
