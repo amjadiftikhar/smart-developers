@@ -5,6 +5,9 @@ import pakSiasat from "../../images/pakSiasat.png";
 import amgsac from "../../images/amgsac.png";
 import qabros from "../../images/qabros.png";
 import daniaz from "../../images/daniaz.png";
+import cityCable from "../../images/cityCable.PNG";
+import easyMoney from "../../images/easyMoney.PNG";
+
 
 const projectsObj = [
     {
@@ -15,22 +18,7 @@ const projectsObj = [
     {
         projectImage: info1947,
         projectTitle: "1947",
-        description: "1947 is a encyclopedia of information about hospitals, universities, tourist places, hotels, shopping centers, NGOs, political parties and  official sites"
-    },
-    {
-        projectImage: pkInsaf,
-        projectTitle: "PK Insaf",
-        description: "PKINSAF is an online news website featuring news articles and videos from different news and media sites."
-    },
-    {
-        projectImage: pakSiasat,
-        projectTitle: "Pak Siasat",
-        description: "Paksiasat is raising political awareness among people in particular through media and intellectual engagement with public affairs."
-    },
-    {
-        projectImage: amgsac,
-        projectTitle: "AMGSAC",
-        description: "AMGSAC is a website built, designed, and maintained for a school. It presents information about the school, exam results, admission procedures, fee structure and much more."
+        description: "1947 is an encyclopedia of information about hospitals, universities, tourist places, hotels, shopping centers, NGOs, political parties and  official sites. Website ensures all information on your fingertips."
     },
     {
         projectImage: qabros,
@@ -38,9 +26,34 @@ const projectsObj = [
         description: "Q Recycling aims to reuse and recycle the mobile phone parts and LCDs. We helped Q Recycling develop a system to keep track of their inventory and an easy online solution sale and purchase."
     },
     {
+        projectImage: cityCable,
+        projectTitle: "Billing System",
+        description: "City Cable Billing information system helps the company to keep track of all their customer payment, bills, expenses. Helping the user with automatically generating alerts for approaching or past due dates and generating reports."
+    },
+    {
+        projectImage: amgsac,
+        projectTitle: "AMGSAC",
+        description: "AMGSAC is a website built, designed, and maintained for a school. It presents information about the school, exam results, admission procedures, fee structure and much more."
+    },
+    {
+        projectImage: pakSiasat,
+        projectTitle: "Pak Siasat",
+        description: "Paksiasat is raising political awareness among people in particular through media and intellectual engagement with public affairs."
+    },
+    {
         projectImage: daniaz,
         projectTitle: "Daniaz Kitchen",
         description: "If you are a cooking enthusiast and want to share your experiment and experties to the world, we can help you develop a great blog. Daniazkitchen is a blog about cooking."
+    },
+    {
+        projectImage: pkInsaf,
+        projectTitle: "PK Insaf",
+        description: "PKINSAF is an online news website featuring news articles and videos from different news and media sites."
+    },
+    {
+        projectImage: easyMoney,
+        projectTitle: "Easy Transfer",
+        description: "Commission Calculator is a solution for money transfer agents. An agent uses different schemes to send and receive customers money which can be thousands of transactions on a daily basis."
     }
 ];
 

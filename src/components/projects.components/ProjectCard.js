@@ -16,18 +16,23 @@ function ProjectCard(props) {
     }
     return (
         <div className="projectCard">
-            <img data-aos="fade-right" className="projectImage" 
-                src={props.projectImage} alt=""/>
-            <span data-aos="fade-left" className="projectTitle">
-                {props.projectTitle}
-            </span>
-            <a data-aos="fade-right" className="showDescription" 
-                href="" onClick={handleFnc}>
-                {hide ? 'more details...' : 'hide details >>'}                
-            </a>
-            <p className="projectDescription">
-                {projDescription && props.description}
-            </p>
+            <div className="projDescriptionSection">
+                <span data-aos="fade-left" className="projectTitle">
+                    {props.projectTitle}
+                </span>
+                <p className="projectDescription">
+                    {projDescription && props.description}
+                </p>
+                <a data-aos="fade-right" className="showDescription" 
+                    href="" onClick={handleFnc}>
+                    {hide ? 'more details...' : 'hide details >>'}                
+                </a>
+            </div>
+            <div className="projImageSection">
+                <img data-aos="fade-right" className="projectImage" 
+                    src={props.projectImage} alt=""
+                />
+            </div>
         </div>
     )
 }
