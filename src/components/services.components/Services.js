@@ -1,8 +1,9 @@
 import React, {useEffect, useState} from 'react';
-import mobileDevelopment from "../../images/mobileDevelopment.jpg";
+import softwareServices from "../../images/softwareServices.jpg";
 import softwareDevelopment from "../../images/softwareDevelopment.jpg";
+import mobileDevelopment from "../../images/mobileDevelopment.jpg";
+import itSupport from "../../images/itSupport.jpg";
 import dedicatedTeam from "../../images/dedicatedTeam.png";
-import softwareTool from "../../images/softwareTool.png";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import "./service.styles.css"
@@ -24,6 +25,9 @@ function Services() {
     <>
         <div className="servicesTitle">
                 <p className="caseStudyDescription">OUR SERVICES</p>
+        </div>
+        <div className="softwareServiceImage">
+                <img src={softwareServices} alt=""/>
         </div>
         <div className="serviceSection">            
             <div className="cardContainer">
@@ -85,7 +89,7 @@ function Services() {
                     </p>
                 </div>
                 <div className="serviceCard" data-aos="fade-right">
-                    <img className="serviceImage" src={softwareTool} alt=""/>
+                    <img className="serviceImage" src={itSupport} alt=""/>
                 </div>
             </div>
             <div className="cardContainer">
