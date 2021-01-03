@@ -24,7 +24,7 @@
 .footerLinks {
     text-decoration: none;
     color: white;
-    font-weight: 600;
+    font-weight: 400;
 }
 .footerLinks:hover {
     text-decoration: none;
@@ -59,22 +59,11 @@
     color: white;
     background: black;    
 }
-.toolTip {
-    /* display: none; */
-}
-.socialMediaIcon:hover .toolTip {
-    /* display: block;
-    padding: 0.5rem 0 0 0;
-    position: absolute;
-    font-size: 0.8rem;
-    font-weight: bold;
-    z-index: 1; */
-}
 .footerServices {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;    
-    font-weight: 600;
+    align-items: flex-start; 
+    font-weight: 400;
 }
 .copyRightSection {
     padding: 0.5em 2em 0.5em 2em;

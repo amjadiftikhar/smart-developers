@@ -26,11 +26,11 @@ function Footer() {
                     <h3 className="footerHeader">Services</h3>
                     <div>Software Development</div>
                     <div>Custom Software</div>
-                    {/* <div>Full Stack Development</div> */}
+                    <div>Full Stack Development</div>
                     <div>Mobile App Development</div>
-                    {/* <div>CMS</div> */}
+                    <div>CMS</div>
                     <div>E-commerce</div>
-                    {/* <div>Maintenance & Support</div> */}
+                    <div>Maintenance & Support</div>
                     <div>IT Support</div>
                 </div>
                 <div className="socialMeadia">
