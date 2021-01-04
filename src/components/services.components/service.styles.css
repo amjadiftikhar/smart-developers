@@ -18,6 +18,149 @@
     font-weight: bold;
 }
 .serviceSection {
+    margin-top: 4em;
+    margin-bottom: 4em;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.serviceCardContainer {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 2em;
+    margin-bottom: 2em;
+}
+.serviceDescription {
+    position: relative;
+    margin-top: 5em;
+    background-color: white;
+    padding: 1em;
+    width: 20em;
+    box-shadow: 
+    12px 12px 16px 0 rgba(255, 255, 255, 0.3) inset,
+    -8px -8px 12px 0 rgba(0, 0, 0, .10) inset;
+}
+.serviceCard {
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;    
+    background-color: white;
+    width: 12em;
+    height: 10em;
+    padding: 0.5em;
+    border-top-left-radius: 3em;
+    box-shadow: 
+    12px 12px 16px 0 rgba(255, 255, 255, 0.3) inset,
+    -8px -8px 12px 0 rgba(0, 0, 0, .10) inset;
+}
+.serviceImage {
+    width: 100%;
+    height: 100%;
+    background: white;
+    border-top-left-radius: 3em;
+    padding: 0.5em;
+}
+.cardTitle {
+    width: 100%;
+    position: absolute;
+    bottom: 0.5em;
+    background: rgb(231, 231, 233); 
+    background: rgba(231, 231, 233, 0.8);
+    padding: 0.8em;
+    font-size: 0.8rem;
+    text-align: center;
+}
+.cardDescription {
+    margin-top: 6em;
+    font-size: 0.9rem; 
+    padding: 0.7em;
+    text-align: justify;   
+}
+
+
+
+
+
+
+
+
+/* .serviceSection {
+    width: 100%;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+}
+.subSection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.serviceDescription {
+    position: relative;
+    margin-right: 1em;
+    background-color: white;
+    padding: 1em;
+    width: 25em;
+    height: 25em;
+    box-shadow: 
+    12px 12px 16px 0 rgba(255, 255, 255, 0.3) inset,
+    -8px -8px 12px 0 rgba(0, 0, 0, .10) inset;
+}
+.showSearviceDescription {
+    margin-left: 0.5rem;
+    color: #048E86;
+}
+.showSearviceDescription:hover {
+    color: blue;
+}
+.serviceCard {
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;    
+    background-color: white;
+    width: 8em;
+    height: 8em;
+    margin: 0 1em 2em 0;
+    padding: 0.5em;
+    box-shadow: 
+    12px 12px 16px 0 rgba(255, 255, 255, 0.3) inset,
+    -8px -8px 12px 0 rgba(0, 0, 0, .40) inset;
+}
+.serviceImage {
+    width: 100%;
+    height: 100%;
+    background: white;
+}
+.cardTitle {
+    font-size: 1.2rem;
+    padding-bottom: 0.3em;
+    font-weight: bold;
+}
+.cardDescription {
+    font-size: 1rem;    
+}  */
+
+
+
+
+
+
+
+
+/* .serviceSection {
     padding: 2em;
     display: flex;
     flex-direction: column;
@@ -69,4 +212,4 @@
 }
 .cardDescription {
     font-size: 1rem;    
-}
+} */
