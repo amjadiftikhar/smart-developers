@@ -7,7 +7,7 @@ function Profiles() {
     return (
         <Container className="profileSection">
             <h1 className="sectionTitle">MEET OUR TEAM</h1>
-            <Container className="profilesContainer">
+            <div className="profilesContainer">
                 {
                     profilesObj.map((p, index) => {
                         return(
@@ -20,7 +20,7 @@ function Profiles() {
                         )
                     })
                 }
-            </Container>
+            </div>
         </Container>
     )
 }

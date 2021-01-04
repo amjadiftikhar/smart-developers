@@ -1,10 +1,9 @@
 import React from 'react';
-import {Container} from "react-bootstrap";
 import "./about.styles.css";
 
 function Profile(props) {
     return (
-        <Container className="profileCard">
+        <div className="profileCard">
             <div className="profileImage">
                 <img className="profilePic" src={props.profileImage} 
                     alt="profile image"/>
@@ -13,7 +12,7 @@ function Profile(props) {
                 <h5> {props.profileTitle} </h5>
                 <p className="personalInformation"> {props.personalInfo} </p>
             </div>
-        </Container>
+        </div>
     )
 }
 

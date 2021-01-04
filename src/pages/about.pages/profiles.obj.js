@@ -1,10 +1,9 @@
 import faisalAkhlaq from "../../images/faisalAkhlaq.png";
 import amjadIftikhar from "../../images/amjadIftikhar.jpg";
 import rajaEjaz from "../../images/rajaEjaz.jpg";
+import rahim from "../../images/rahim.jpeg";
 import pakSiasat from "../../images/pakSiasat.png";
 import amgsac from "../../images/amgsac.png";
-import qabros from "../../images/qabros.png";
-import daniaz from "../../images/daniaz.png";
 
 const profilesObj = [
     {
@@ -16,6 +15,11 @@ const profilesObj = [
         profileImage: amjadIftikhar,
         profileTitle: "Amjad Iftikhar",
         personalInfo: "Frontend Developer"
+    },
+    {
+        profileImage: rahim,
+        profileTitle: "Rahim Ismaili",
+        personalInfo: "Full Stack Developer"
     },
     {
         profileImage: rajaEjaz,
