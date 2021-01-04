@@ -9,18 +9,6 @@ import "aos/dist/aos.css";
 import "./service.styles.css"
 
 function Services() {    
-    // const [serviceDescription, toggleServiceDescription] = useState(false)
-    // const [hide, setHide] = useState(true)
-    // useEffect(() => {
-    //     Aos.init({duration: 2000});
-    // }, [])
-
-    // function handleFnc(e, index){
-    //     e.preventDefault();
-    //     toggleServiceDescription(serviceDescription => !serviceDescription);
-    //     setHide (hide => !hide )    
-    // }
-
     return (
     <>
         <div className="servicesTitle">
