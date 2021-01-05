@@ -1,10 +1,27 @@
 import React from 'react';
-import {Form, Col, Button} from "react-bootstrap";
+import emailjs from 'emailjs-com';
 import {HiOutlineMail} from "react-icons/hi";
 import {AiOutlineCheckSquare} from "react-icons/ai";
+import ContactForm from "./ContactForm";
 import "./contactPage.styles.css";
 
 function Contact() {
+
+    function sendEmail(e) {
+        e.preventDefault();
+        emailjs.sendForm('service_yh0l2gh', 'template_5hqobku', 
+        e.target, 'user_Ane2n8QteW2k8F4HWdDKu')
+          .then((result) => {
+            alert('Thank you for reaching out')
+            console.log(result.text + 'funciona');
+          }, (error) => {
+            alert("Please try again!")
+            console.log(error.text + 'no funciona');
+          });
+          e.target.reset();
+      }
+
+
     return (
         <div className="contactContainer">
             <div className="detailSection">
@@ -24,41 +41,37 @@ function Contact() {
                 </div>
             </div>
             <div className="formSection">
-                <Form className="contactForm">
-                    <Form.Row>
-                        <Form.Group as={Col} controlId="formGridEmail">
-                            <Form.Label>Name</Form.Label>
-                            <Form.Control className="inputFields" type="full name" 
-                            placeholder="Your name" />
-                        </Form.Group>
-                        <Form.Group as={Col} controlId="formGridPassword">
-                            <Form.Label>Your email</Form.Label>
-                            <Form.Control className="inputFields" type="email" 
-                            placeholder="abc@example.com" />
-                        </Form.Group>
-                    </Form.Row>
-                    <Form.Row>
-                    <Form.Group as={Col} controlId="formGridAddress1">
-                        <Form.Label>Phone number (optional)</Form.Label>
-                        <Form.Control className="inputFields" 
-                        className="inputFields" placeholder="Contact number" />
-                    </Form.Group>
-                    </Form.Row>
-                    <Form.Row>
-                        <Form.Group as={Col} controlId="formGridState">
-                            <Form.Label>Your message*</Form.Label>
-                            <Form.Control as="textarea" rows={6} 
-                                className="inputFields"
-                                placeholder="Software needs for your business" />                    
-                        </Form.Group>
-                    </Form.Row>
-                    <Button className="submitBtn" type="submit">
-                        Send
-                    </Button>
-                </Form>            
+                <ContactForm sendEmail={sendEmail}/>         
             </div>
         </div>
     )
 }
 
 export default Contact
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
