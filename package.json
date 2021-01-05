@@ -12,6 +12,8 @@
     "aos": "^2.3.4",
     "bootstrap": "^4.5.3",
     "check-node-version": "^4.0.3",
+    "emailjs": "^3.4.0",
+    "emailjs-com": "^2.6.4",
     "react": "^17.0.1",
     "react-bootstrap": "^1.4.0",
     "react-dom": "^17.0.1",
