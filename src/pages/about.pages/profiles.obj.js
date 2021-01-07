@@ -2,7 +2,7 @@ import faisalAkhlaq from "../../images/faisalAkhlaq.png";
 import amjadIftikhar from "../../images/amjadIftikhar.jpg";
 import rajaEjaz from "../../images/rajaEjaz.jpg";
 import rahim from "../../images/rahim.jpeg";
-import pakSiasat from "../../images/pakSiasat.png";
+import amirMajeed from "../../images/amirMajeed.jpg";
 import amgsac from "../../images/amgsac.png";
 
 const profilesObj = [
@@ -27,14 +27,9 @@ const profilesObj = [
         personalInfo: "Full Stack Developer"
     },
     {
-        profileImage: pakSiasat,
+        profileImage: amirMajeed,
         profileTitle: "Amir Mehmood",
         personalInfo: "Full Stack Developer"
-    },
-    {
-        profileImage: amgsac,
-        profileTitle: "AMGSAC",
-        personalInfo: "Designer"
     }
 ];
 
