@@ -10,7 +10,12 @@ const Header = (props) => {
   return (
     <Navbar expand="lg">
       <Navbar.Brand href="/">
-        <img className="companyLogo" src={logo} alt=""/>
+        <div className="logoImageContainer">
+          <div className="logo">
+            <img className="companyLogo" src={logo} alt="logo"/>
+          </div>
+           <div className="companyName">Smart Developer</div>
+        </div>       
       </Navbar.Brand>
       <Navbar.Toggle className="toggle bg-light" 
         aria-controls="navbar-toggle"/>

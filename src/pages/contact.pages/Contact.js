@@ -30,7 +30,10 @@ function Contact() {
                     Based on your business requirements and the information provided, we will be able to calculate cost and time frame, if you like to use our services 
                 </p>
                 <h4 className="query">Have any other questions?</h4>
-                <p className="clientInfo"> <HiOutlineMail/> abc@test.com</p>
+                <p className="clientInfo"> 
+                    {/* <HiOutlineMail/>  */}
+                    We are always very glad to answer any questions, please feel free to fill up the form and send to us.  
+                </p>
                 <div className="offers">
                     <span><AiOutlineCheckSquare className="freeOffersBtn"/>
                         Free Quotation
