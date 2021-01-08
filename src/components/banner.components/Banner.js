@@ -13,7 +13,9 @@ function Banner() {
         <div className="heroSection">
             <div className="bannerSection">
                 <div className="motivation">
-                    <p className="bannerDescription">WE ARE A TEAM OF PROFESSIONALS WHO BUILDS GREAT SOFTWARE</p>
+                    <p className="bannerDescription">
+                        WE ARE A TEAM OF PROFESSIONALS WHO BUILDS GREAT SOFTWARE
+                    </p>
                 </div>
                 <img className="bannerImage" src={bannerImage} alt=""/>
             </div>
