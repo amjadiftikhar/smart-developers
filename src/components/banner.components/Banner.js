@@ -41,9 +41,7 @@ function Banner() {
                     <p className="devTeam">Find a development team to 
                         get the best development solutions
                     </p>
-                    {/* <a href="/contact">Contact us</a> */}
-                    <a onClick={handleClick}>Contact us</a>
-
+                    <a href='#' onClick={handleClick}>Contact us</a>
                 </div>
             </div>
         </div>

@@ -30,6 +30,7 @@
     text-decoration: none;
     color: rgb(190, 188, 188);
     font-weight: bold;
+    cursor: pointer;
 }
 .socialMeadia {
     z-index: 1;

@@ -1,21 +1,42 @@
 import React from 'react';
+import { useHistory } from "react-router-dom";
 import {FaFacebookF} from "react-icons/fa";
 import {FaLinkedinIn} from "react-icons/fa";
 import {FaTwitter} from "react-icons/fa";
 import {FaInstagramSquare} from "react-icons/fa";
 import "./footer.styles.css"
 
-function Footer() {    
+function Footer() { 
+    let history = useHistory();  
+    
+    function handleClickPortfolio() {
+        history.push("/portfolio");
+    }
+
+    function handleClickAbout() {
+        history.push("/about");
+    }
+
+    function handleClickContact() {
+        history.push("/contact");
+    }
     return (
         <div className="footer">
             <div className="footerSection">
                 <div className="footerAboutUs">
                     <h3 className="footerHeader">About</h3>
-                    <a className="footerLinks" href="/portfolio">
+                    <a className="footerLinks" href='#'
+                        onClick={handleClickPortfolio}>
                         Portfolio
                     </a>
-                    <a className="footerLinks" href="/about">Team</a>
-                    <a className="footerLinks" href="/contact">Contact</a>
+                    <a className="footerLinks" href='#'
+                        onClick={handleClickAbout}>
+                        Team
+                    </a>
+                    <a className="footerLinks" href='#'
+                        onClick={handleClickContact}>
+                        Contact
+                    </a>
                 </div> 
                 <div className="footerServices">
                     <h3 className="footerHeader">Services</h3>

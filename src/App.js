@@ -19,8 +19,8 @@ function App() {
             <Route exact={true} path="/contact"  component={Contact} />
           </Switch>
         </Layout>
-      </Router>
-      <Footer/>        
+      <Footer/>  
+      </Router>      
     </React.Fragment>
   );
 }
