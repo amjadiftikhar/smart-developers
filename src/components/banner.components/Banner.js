@@ -1,4 +1,5 @@
 import React, {useEffect} from 'react';
+import { useHistory } from "react-router-dom";
 import bannerImage from "../../images/banner.png";
 import webDev from "../../images/webDev.jpg";
 import Aos from "aos";
@@ -6,6 +7,12 @@ import "aos/dist/aos.css";
 import "./banner.styles.css";
 
 function Banner() {
+    let history = useHistory();
+
+    function handleClick() {
+        history.push("/contact");
+    }
+    
     useEffect(() => {
         Aos.init({duration: 3000});
     }, [])
@@ -34,7 +41,9 @@ function Banner() {
                     <p className="devTeam">Find a development team to 
                         get the best development solutions
                     </p>
-                    <a href="/contact">Contact us</a>
+                    {/* <a href="/contact">Contact us</a> */}
+                    <a onClick={handleClick}>Contact us</a>
+
                 </div>
             </div>
         </div>
