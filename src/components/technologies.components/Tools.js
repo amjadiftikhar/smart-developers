@@ -7,7 +7,7 @@ function Tools() {
     return (
         <div className="servicesContainer">
             <div className="serviceSectionTitle">
-                <p>OUR TECH STACK</p>
+                <h2>OUR TECH STACK</h2>
             </div>
             <div className="toolSection">
                 {
