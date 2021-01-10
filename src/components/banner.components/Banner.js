@@ -20,13 +20,13 @@ function Banner() {
         <div className="heroSection">
             <div className="bannerSection">
                 <div className="motivation">
-                    <p className="bannerDescription">
+                    <h1 className="bannerDescription">
                         WE ARE A TEAM OF PROFESSIONALS WHO BUILDS GREAT SOFTWARE
-                    </p>
+                    </h1>
                 </div>
                 <img className="bannerImage" src={bannerImage} alt=""/>
             </div>
-            <div className="mainSection" data-aos="fade-down">
+            <div className="mainSection" data-aos="fade-up">
                 <div className="imageContainer">
                     <img src={webDev} alt=""/>
                     <div className="content">

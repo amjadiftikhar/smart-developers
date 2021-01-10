@@ -20,16 +20,16 @@
 }
 .motivation {
     position: absolute;
-    background: rgb(231, 231, 233); 
-    background: rgba(231, 231, 233, 0.8);
-    width: 75%;
-    top: 3.4em;
+    /* background: rgba(231, 231, 233, 0.8); */
+    background: rgba(97, 96, 96, 0.8);
+    color: white;
+    width: 70%;
+    top: 3.5em;
     padding: 3em;
 }
 .bannerDescription {
-    text-align: center;
-    font-size: 1.5rem;
-    font-weight: bold;
+    text-align: left;
+     font-size: 1.5rem;
 }
 .imageContainer {
     position: relative;
@@ -43,17 +43,13 @@
     width: 100%;
 }
 .imageContainer h2 {
-    font-weight: bold;
-    font-size: 2.8rem;
-    font-family: 'Courier New', Courier, monospace;
     text-align:center;
 }
 .imageContainer .content {
     position: absolute;
     bottom: 1em;
-    background: rgb(0, 0, 0); 
-    background: rgba(0, 0, 0, 0.5); 
-    color: #f1f1f1;
+    background: rgba(97, 96, 96, 0.8);
+    color: white;
     width: 100%;
     padding: 3em;
 }
