@@ -15,8 +15,7 @@ function Service(props) {
                     {props.description}
                 </p>
             </div>
-            <div className="serviceCard">
-                
+            <div className="serviceCard">    
                 
             </div>
         </div>

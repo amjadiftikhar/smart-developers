@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import softwareServices from "../../images/softwareServices.jpg";
 import softwareDevelopment from "../../images/softwareDevelopment.jpg";
-import mobileDevelopment from "../../images/mobileDevelopment.jpg";
+import mobileDevelopment from "../../images/mobileDevelopment.png";
 import itSupport from "../../images/itSupport.jpg";
 import dedicatedTeam from "../../images/dedicatedTeam.png";
 import Aos from "aos";
@@ -20,7 +20,7 @@ function Services() {
         <div className="serviceSection">  
             <div className="serviceCardContainer">
                 <div className="serviceCard" data-aos="fade-right">
-                    <h2 className="cardTitle" data-aos="fade-down">Software Development</h2>
+                    <h2 className="cardTitle">Software Development</h2>
                     <img className="serviceImage" src={softwareDevelopment} alt=""/>
                 </div>
                 <div className="serviceDescription">
@@ -34,7 +34,7 @@ function Services() {
             </div> 
             <div className="serviceCardContainer"> 
                 <div className="serviceCard" data-aos="fade-left">
-                    <h2 className="cardTitle" data-aos="fade-down">Mobile App Development</h2>
+                    <h2 className="cardTitle">Mobile App Development</h2>
                     <img className="serviceImage" src={mobileDevelopment} alt=""/>
                 </div>                  
                 <div className="serviceDescription">
@@ -48,7 +48,7 @@ function Services() {
             </div>
             <div className="serviceCardContainer">
                 <div className="serviceCard" data-aos="fade-right">
-                    <h2 className="cardTitle" data-aos="fade-down">IT Support</h2>
+                    <h2 className="cardTitle">IT Support</h2>
                     <img className="serviceImage" src={itSupport} alt=""/>
                 </div>
                 <div className="serviceDescription">
@@ -62,7 +62,7 @@ function Services() {
             </div>
             <div className="serviceCardContainer">
                 <div className="serviceCard" data-aos="fade-left">
-                    <h2 className="cardTitle" data-aos="fade-down">Hire a dedicated team or developer</h2>
+                    <h2 className="cardTitle">Hire a dedicated team or developer</h2>
                     <img className="serviceImage" src={dedicatedTeam} alt=""/>
                 </div>                   
                 <div className="serviceDescription">
