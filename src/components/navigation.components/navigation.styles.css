@@ -8,7 +8,6 @@
 }
 .nav-link {
   color: black!important;
-  font-size: 0.9rem;
   font-weight: bold;
   font-family: 'Courier New', Courier, monospace;
 }
@@ -24,14 +23,14 @@
   color: black!important;
 }
 .logoImageContainer {
-  width: 10em;
+  width: 12em;
   display: flex;
   align-items: center;
   flex-direction: row;
   justify-content: start;
 }
 .companyName {
-  font-size: 0.8rem;
+  font-size: 1rem;
   font-weight: bold;
   font-family: 'Courier New', Courier, monospace;
 }
