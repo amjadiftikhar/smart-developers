@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import React, {useEffect} from 'react';
 import softwareServices from "../../images/softwareServices.jpg";
 import softwareDevelopment from "../../images/softwareDevelopment.jpg";
 import mobileDevelopment from "../../images/mobileDevelopment.png";
@@ -8,7 +8,10 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import "./service.styles.css"
 
-function Services() {    
+function Services() {  
+        useEffect(() => {
+        Aos.init({duration: 2000});
+    }, [])  
     return (
     <>
         <div className="servicesTitle">
