@@ -8,7 +8,7 @@ function Projects() {
     return (
         <div className="projectsContainer" >
             <div className="caseStudyTitle">
-                <p className="caseStudyDescription">OUR PROJECTS</p>
+                <h2 className="caseStudyDescription">OUR PROJECTS</h2>
             </div>
             <div className="projectSection" ref={portfolioSection}>
                 {

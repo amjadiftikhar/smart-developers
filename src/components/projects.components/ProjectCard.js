@@ -6,7 +6,7 @@ function ProjectCard(props) {
     const [projDescription, toggleProjDescription] = useState(false)
     const [hide, setHide] = useState(true)
     useEffect(() => {
-        Aos.init({duration: 3000});        
+        Aos.init({duration: 2000});        
     }, [projDescription])
 
     function handleFnc(e){
@@ -15,21 +15,21 @@ function ProjectCard(props) {
         setHide (hide => !hide )    
     }
     return (
-        <div className="projectCard">
+        <div className="projectCard" data-aos="fade-up">
             <div className="projDescriptionSection">
-                <span data-aos="fade-left" className="projectTitle">
+                <h4 className="projectTitle">
                     {props.projectTitle}
-                </span>
+                </h4>
                 <p className="projectDescription">
                     {projDescription && props.description}
                 </p>
-                <a data-aos="fade-right" className="showDescription" 
+                <a className="showDescription" 
                     href="" onClick={handleFnc}>
                     {hide ? 'more details...' : 'hide details >>'}                
                 </a>
             </div>
             <div className="projImageSection">
-                <img data-aos="fade-right" className="projectImage" 
+                <img className="projectImage" 
                     src={props.projectImage} alt=""
                 />
             </div>
