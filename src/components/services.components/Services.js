@@ -13,7 +13,7 @@ function Services() {
         Aos.init({duration: 2000});
     }, [])  
     return (
-    <>
+    <div className="serviceContainer">
         <div className="servicesTitle">
                 <h2 className="caseStudyDescription">OUR SERVICES</h2>
         </div>
@@ -79,7 +79,7 @@ function Services() {
                 </div>
             </div>
         </div>
-        </>
+    </div>
     );
 }
 
