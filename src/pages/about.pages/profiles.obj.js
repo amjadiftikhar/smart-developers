@@ -3,7 +3,6 @@ import amjadIftikhar from "../../images/amjadIftikhar.jpg";
 import rajaEjaz from "../../images/rajaEjaz.jpg";
 import rahim from "../../images/rahim.jpeg";
 import amirMajeed from "../../images/amirMajeed.jpg";
-import amgsac from "../../images/amgsac.png";
 
 const profilesObj = [
     {
