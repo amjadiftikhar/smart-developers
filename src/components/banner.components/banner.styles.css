@@ -20,16 +20,14 @@
 }
 .motivation {
     position: absolute;
-    /* background: rgba(231, 231, 233, 0.8); */
     background: rgba(97, 96, 96, 0.8);
     color: white;
     width: 70%;
     top: 3.5em;
-    padding: 3em;
+    padding: 1.5em;
 }
 .bannerDescription {
     text-align: left;
-     font-size: 1.5rem;
 }
 .imageContainer {
     position: relative;

@@ -20,9 +20,9 @@ function Banner() {
         <div className="heroSection">
             <div className="bannerSection">
                 <div className="motivation">
-                    <h1 className="bannerDescription">
+                    <h2 className="bannerDescription">
                         WE ARE A TEAM OF PROFESSIONALS WHO BUILDS GREAT SOFTWARE
-                    </h1>
+                    </h2>
                 </div>
                 <img className="bannerImage" src={bannerImage} alt=""/>
             </div>
