@@ -19,8 +19,7 @@ function Contact() {
             console.log(error.text + 'no funciona');
           });
           e.target.reset();
-      }
-
+        }
 
     return (
         <div className="contactContainer">
@@ -34,7 +33,7 @@ function Contact() {
                     {/* <HiOutlineMail/>  */}
                     We are always very glad to answer any questions, please feel free to fill up the form and send to us.  
                 </p>
-                <div className="offers">
+                <div className="offerSection">
                     <span><AiOutlineCheckSquare className="freeOffersBtn"/>
                         Free Quotation
                     </span>
