@@ -11,7 +11,7 @@
     flex-wrap: wrap;
     padding: 2em;
 }
-.projectCard {
+.projectCard {    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -53,3 +53,48 @@
     width: 18em;
     font-size: 0.8rem;
 }
+@media only screen and (max-width: 768px) {
+    .caseStudyTitle {
+        width: 100%;
+        text-align: center;
+    }  
+    .projectCard {
+        margin: 1em 0 1em 0;
+    } 
+}
+@media only screen and (max-width: 414px) {
+    .caseStudyTitle {
+        width: 100%;
+        text-align: center;
+    }  
+    .projectCard {
+        margin: 1em 0 1em 0;
+    } 
+}
+@media only screen and (max-width: 376px) {
+    .caseStudyTitle {
+        width: 100%;
+        text-align: center;
+    }  
+    .projectCard {
+        margin: 1em 0 1em 0;
+    } 
+}
+@media only screen and (max-width: 320px) {
+    .caseStudyTitle {
+        width: 100%;
+        text-align: center;
+    }  
+    .projectCard {
+        width: 18em;
+        height: 25em;
+        margin: 1em 0 1em 0;
+    } 
+    .projectImage {
+        width: 18em;
+        height: 25em;
+    } 
+}
+
+
+
