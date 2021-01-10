@@ -5,7 +5,7 @@
     padding: 1.5em;
     width: 100%;
     text-align: center;
-    background: rgba(0, 0, 0, 0.5); 
+    background: black;
     color: white;
 }
 .footerAboutUs {
@@ -41,7 +41,7 @@
 .socialMeadiaLinks {
     display: flex;
     flex-wrap: wrap;
-    padding: 0.4em 0.2em 0.4em 0.8em;
+    padding: 0.4em 0.2em 0.4em 0.2em;
     border-radius: 1em;
 }
 .socialMediaIcon {
@@ -68,6 +68,62 @@
     display: flex;
     justify-content: space-between;
     font-size: 0.8rem;
-    background-color: black;
-    color: white;
+    background-color: white;
+}
+/* Media queries for small devices with 540px width */
+@media only screen and (max-width: 540px) {
+    .socialMeadia {
+        margin-top: 1em;
+        margin-right: auto;
+        margin-left: 1.5em;
+    }
+    .socialMeadiaLinks {
+        padding: 0;
+    }
+}
+/* Media queries for small devices with 414px width */
+@media only screen and (max-width: 414px) {
+    .footerSection {
+        padding: 4em;
+        justify-content: center;
+    }
+    .socialMeadia {
+        padding-top: 1em;
+        margin: 0 auto;
+        width: 12em;
+    }
+}
+/* Media queries for small devices with 376px width */
+@media only screen and (max-width: 376px) {
+    .footerSection {
+        padding: 2em;
+    }
+    .socialMeadia {
+        padding-top: 1em;
+        margin: 0 auto;
+        width: 12em;
+    }
+    .socialMeadiaLinks {
+        padding: 0;
+    }
+}
+/* Media queries for small devices with 320px width */
+@media only screen and (max-width: 320px) {
+    .footerSection {
+        padding: 2em;
+    }
+    .footerAboutUs {
+        margin-top: 1em;
+    }
+    .footerServices {
+        margin-top: 1em;
+    }
+    .socialMeadia {
+        padding-top: 1em;
+        margin: 0 auto;
+        width: 12em;
+    }
+    .socialMeadiaLinks {
+        padding: 0;
+    }
 }

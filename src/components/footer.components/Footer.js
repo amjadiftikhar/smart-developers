@@ -24,7 +24,7 @@ function Footer() {
         <div className="footer">
             <div className="footerSection">
                 <div className="footerAboutUs">
-                    <h3 className="footerHeader">About</h3>
+                    <h3 className="footerHeader">About us</h3>
                     <a className="footerLinks" href='#'
                         onClick={handleClickPortfolio}>
                         Portfolio
