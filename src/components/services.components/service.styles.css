@@ -126,11 +126,13 @@
 /* Media query for devices upto 320px screens */
 @media only screen and (max-width: 320px) {
     .servicesTitle {
-        width: 100%;
+        width: 91%;
     }
     .serviceCardContainer {
         width: 15em;
         margin-right: 0;
+        margin: 0 auto;
+        margin-bottom: 1em;
     }
     .serviceCard {
         width: 10em;
