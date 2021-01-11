@@ -16,7 +16,7 @@
     flex-direction: column;
     align-items: center;
     width: 20em;
-    height: 22.5em;
+    height: 24em;
     margin: 4em 0 1em 1em;
     background-color: white;
     border-radius: 1em;
@@ -37,7 +37,7 @@
 }
 .projectImage {
     width: 20em;
-    height: 22.5em;
+    height: 24em;
     margin-bottom: 2em;
     border-radius: 1em;
 }
@@ -53,6 +53,7 @@
     width: 18em;
     font-size: 0.8rem;
 }
+/* Media query for devices upto 768px screens */
 @media only screen and (max-width: 768px) {
     .caseStudyTitle {
         width: 100%;
@@ -62,6 +63,7 @@
         margin: 1em 0 1em 0;
     } 
 }
+/* Media query for devices upto 414px screens */
 @media only screen and (max-width: 414px) {
     .caseStudyTitle {
         width: 100%;
@@ -71,6 +73,7 @@
         margin: 1em 0 1em 0;
     } 
 }
+/* Media query for devices upto 376px screens */
 @media only screen and (max-width: 376px) {
     .caseStudyTitle {
         width: 100%;
@@ -80,6 +83,7 @@
         margin: 1em 0 1em 0;
     } 
 }
+/* Media query for devices upto 320px screens */
 @media only screen and (max-width: 320px) {
     .caseStudyTitle {
         width: 100%;
