@@ -84,6 +84,7 @@
     padding: 0.7em;
     text-align: justify;   
 }
+/* Media query for devices upto 768px screens */
 @media only screen and (max-width: 768px) {
     .servicesTitle {
         width: 95%;    
@@ -92,6 +93,7 @@
         margin: 1em;
     }
 }
+/* Media query for devices upto 414px screens */
 @media only screen and (max-width: 414px) {
     .servicesTitle {
         width: 93%;
@@ -100,6 +102,7 @@
         margin-right: 0; 
     }
 }
+/* Media query for devices upto 376px screens */
 @media only screen and (max-width: 376px) {
     .servicesTitle {
         width: 93%;    
@@ -113,11 +116,9 @@
     .serviceCard {
         width: 10em;
         height: 8em;
-        /* box-shadow: none; */
     }
     .serviceDescription {       
         width: 15em;
-        /* box-shadow: none; */
     }
     .cardDescription {
         margin-top: 4em;  
