@@ -1,3 +1,4 @@
+/* Hero section styles */
 .heroSection {
     width: 100%;
     display: flex;
@@ -19,6 +20,7 @@
     align-self: center;
     padding: 4em;
 }
+/* main section styles and lower section of hero section */
 .mainSection {
     display: flex;
     align-items: center;
@@ -51,6 +53,7 @@
     width: 100%;
     padding: 3em;
 }
+/* styles for the quote section which directs to contact form */
 .getQuoteSection {
     display: flex;
     align-items: center;
