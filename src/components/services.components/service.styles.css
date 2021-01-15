@@ -87,7 +87,8 @@
 /* Media query for devices upto 768px screens */
 @media only screen and (max-width: 768px) {
     .servicesTitle {
-        width: 95%;    
+        width: 95%;
+        text-align: center;      
     }
     .serviceCardContainer {
         margin: 1em;
@@ -97,6 +98,7 @@
 @media only screen and (max-width: 414px) {
     .servicesTitle {
         width: 93%;
+        text-align: center;  
     }
     .serviceCardContainer {
         margin-right: 0; 
@@ -105,7 +107,8 @@
 /* Media query for devices upto 376px screens */
 @media only screen and (max-width: 376px) {
     .servicesTitle {
-        width: 92%;    
+        width: 92%;  
+        text-align: center;  
     }
     .serviceCardContainer {
         width: 15em;
@@ -128,6 +131,7 @@
 @media only screen and (max-width: 320px) {
     .servicesTitle {
         width: 91%;
+        text-align: center;  
     }
     .serviceCardContainer {
         width: 15em;
