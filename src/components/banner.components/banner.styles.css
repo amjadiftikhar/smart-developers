@@ -16,9 +16,9 @@
     position: absolute;
     background: rgba(97, 96, 96, 0.8);
     color: white;
-    width: 70%;
+    width: 65%;
     align-self: center;
-    padding: 4em;
+    padding: 3.5em;
 }
 /* main section styles and lower section of hero section */
 .mainSection {
@@ -171,12 +171,15 @@
 }
 /* Media query for devices upto 375px screens */
 @media only screen and (max-width: 376px) {
+    .bannerImage {
+        height: 70%;
+    }
     .motivation {
         width: 100%;
         padding: 1em;
     }
     .bannerDescription {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
         text-align: center;
     }
     .imageContainer h2 {
