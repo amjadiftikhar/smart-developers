@@ -147,6 +147,9 @@
 }
 /* Media query for devices upto 414px screens */
 @media only screen and (max-width: 414px) {
+    .bannerImage {
+        height: 75%;
+    }
     .motivation {
         width: 100%;
         padding: 1em;
@@ -172,7 +175,7 @@
 /* Media query for devices upto 375px screens */
 @media only screen and (max-width: 376px) {
     .bannerImage {
-        height: 70%;
+        height: 75%;
     }
     .motivation {
         width: 100%;
