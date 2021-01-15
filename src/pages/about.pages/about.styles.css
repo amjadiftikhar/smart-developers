@@ -53,3 +53,43 @@
 .personalInformation {
     font-size: 0.8rem;
 }
+/* Media query for devices upto 540px screens */
+@media only screen and (max-width: 540px) {
+    .objective {
+        width: 85%;
+        text-align: justify;
+        margin: 1.8em;
+    }
+}
+/* Media query for devices upto 414px screens */
+@media only screen and (max-width: 414px) {
+    .objective {
+        width: 80%;
+        text-align: justify;
+        margin: 1.8em;
+    }
+}
+/* Media query for devices upto 376px screens */
+@media only screen and (max-width: 376px) {
+    .objective {
+        width: 80%;
+        text-align: justify;
+        margin: 1.8em;
+    }
+}
+/* Media query for devices upto 320px screens */
+@media only screen and (max-width: 320px) {
+    .objective {
+        width: 80%;
+        text-align: justify;
+        margin: 1.8em;
+    }
+}
+/* Media query for devices upto 280px screens */
+@media only screen and (max-width: 280px) {
+    .objective {
+        width: 75%;
+        text-align: justify;
+        margin: 1.8em;
+    }
+}
