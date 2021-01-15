@@ -54,6 +54,14 @@
     font-size: 0.8rem;
 }
 /* Media query for devices upto 540px screens */
+@media only screen and (max-width: 700px) {
+    .objective {
+        width: 85%;
+        text-align: justify;
+        margin: 1.8em;
+    }
+}
+/* Media query for devices upto 540px screens */
 @media only screen and (max-width: 540px) {
     .objective {
         width: 85%;
