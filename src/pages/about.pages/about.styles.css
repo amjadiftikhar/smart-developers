@@ -1,3 +1,4 @@
+/* About main section styles */
 .aboutContainer {
     margin-top: 7em;
     background-color: white;
@@ -9,6 +10,7 @@
     margin-top: 2em;
     margin-left: 3em;
 }
+/* profiles section style */
 .profilesContainer {
     display: flex;
     flex-wrap: wrap;
@@ -20,6 +22,7 @@
     text-align: center;
     font-weight: 200;
 }
+/* each profile card styles */
 .profileCard {
     width: 15em;
     padding: 2em;
