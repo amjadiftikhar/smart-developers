@@ -14,8 +14,8 @@ const Home  = () => {
             <Services/> 
             <ScrollToDown/>
             <ScrollToTop/>
-            <Tools/>
             <Projects/>
+            <Tools/>
         </div>
     )
 }
