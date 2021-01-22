@@ -26,6 +26,7 @@ function Banner() {
                 </div>
                 <img className="bannerImage" src={bannerImage} alt=""/>
             </div>
+            {/* data-aos, applying animation on the section */}
             <div className="mainSection" data-aos="fade-up">
                 <div className="imageContainer">
                     <img src={webDev} alt=""/>
@@ -36,6 +37,7 @@ function Banner() {
                         </p>
                     </div>
                 </div>
+                 {/* data-aos, applying animation on the section */}
                 <div className="getQuoteSection" data-aos="fade-left">
                     <h2>WEB DEVELOPMENT</h2>
                     <p className="devTeam">Find a development team to 
