@@ -15,9 +15,9 @@ function Projects() {
                 projectsObj.map((p, index) => {
                     return (
                         <ProjectCard key={index}
-                        projectImage={p.projectImage}
-                        projectTitle={p.projectTitle}
-                        description={p.description} 
+                            projectImage={p.projectImage}
+                            projectTitle={p.projectTitle}
+                            description={p.description} 
                         />
                     )
                 })
