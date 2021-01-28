@@ -7,7 +7,7 @@ import './App.css';
 function App() {
 
   return (
-    <React.Fragment>
+    <React.Fragment id="app">
       <Router>
         <NavigationBar/>
         <Layout style={{display:"flex", flexDirection:"column"}} fluid={true}>
