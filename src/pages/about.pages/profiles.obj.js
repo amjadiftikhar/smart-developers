@@ -2,7 +2,7 @@ import faisalAkhlaq from "../../images/faisalAkhlaq.png";
 import amjadIftikhar from "../../images/amjadIftikhar.jpg";
 import rajaEjaz from "../../images/rajaEjaz.jpg";
 import rahim from "../../images/rahim.jpeg";
-import amirMajeed from "../../images/amirMajeed.jpg";
+import amirMajeed from "../../images/amirMajeed.JPG";
 
 const profilesObj = [
     {
