@@ -7,6 +7,9 @@
 .bannerImage {
     width: 100%;
 }
+.bannerImage img {
+    width: 100%;
+}
 .bannerSection {
     display: flex;
     min-width: 100%;
@@ -202,8 +205,13 @@
 /* Media query for devices upto 320px screens */
 @media only screen and (max-width: 320px) {
     .motivation {
-        /* width: 100%; */
         padding: 1em;
+    }
+    .bannerImage {
+        width: 100%;
+    }
+    .bannerImage img {
+        width: 100%;
     }
     .bannerDescription {
         font-size: 1rem;

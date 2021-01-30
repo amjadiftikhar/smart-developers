@@ -24,7 +24,9 @@ function Banner() {
                         WE ARE A TEAM OF PROFESSIONALS WHO BUILDS GREAT SOFTWARE
                     </h2>
                 </div>
-                <img className="bannerImage" src={bannerImage} alt=""/>
+                <div className="bannerImage">
+                    <img src={bannerImage} alt=""/>
+                </div>
             </div>
             {/* data-aos, applying animation on the section */}
             <div className="mainSection" data-aos="fade-up">
