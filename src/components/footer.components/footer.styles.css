@@ -19,7 +19,7 @@
 }
 .footerHeader {
     margin-bottom: 0.8em;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     font-weight: 650;
 }
 .footerLinks {
@@ -53,10 +53,6 @@
     height: 1.6em;
     border-radius: 50%;
     margin-right: 0.6em;
-}
-.socialMediaIcon:hover {
-    color: white;
-    background: black;    
 }
 .footerServices {
     display: flex;

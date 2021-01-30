@@ -52,13 +52,15 @@ function Footer() {
                 <div className="socialMeadia">
                     <h3 className="footerHeader">Social Media</h3> 
                     <div className="socialMeadiaLinks">              
-                        <a className="footerLinks" href="#">
+                        <a className="footerLinks" 
+                            href="https://www.facebook.com/Smart-developer-105134804927431">
                             <FaFacebookF className="socialMediaIcon"/>                            
                         </a>
-                        <a className="footerLinks" href="#">
-                            <FaLinkedinIn className="socialMediaIcon"/>
-                        </a>
-                        <a className="footerLinks" href="#">
+                        <a className="footerLinks" 
+                            href="https://www.linkedin.com/company/smart-developer-copenhagen/">
+                                <FaLinkedinIn className="socialMediaIcon"/>
+                            </a>
+                            <a className="footerLinks" href="#">
                             <FaTwitter className="socialMediaIcon"/>
                         </a>
                         <a className="footerLinks" href="#">
