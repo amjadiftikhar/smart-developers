@@ -58,34 +58,34 @@
 /* Media query for devices upto 768px screens */
 @media only screen and (max-width: 768px) {
     .scrollToDown {
-        /* margin: 0 auto;   */
         top: 26em;     
     }
 }
 /* Media query for devices upto 540px screens */
 @media only screen and (max-width: 540px) {
     .scrollToDown {
-        /* margin: 0 auto;   */
+        left: 45%;
         top: 20em;     
     }
 }
 /* Media query for devices upto 414px screens */
 @media only screen and (max-width: 414px) {
     .scrollToDown {
-        /* margin: 0 auto;   */
+        left: 45%;
         top: 16em;     
     }
 }
 /* Media query for devices upto 376px screens */
 @media only screen and (max-width: 376px) {
     .scrollToDown {
-        /* margin: 0 auto;   */
+        left: 45%;
         top: 15em;     
     }
 }
 /* Media query for devices upto 320px screens */
 @media only screen and (max-width: 320px) {
     .scrollToDown {
+        left: 45%;
         top: 13em;     
     }
 }
