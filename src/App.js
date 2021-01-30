@@ -10,7 +10,7 @@ function App() {
     <React.Fragment id="app">
       <Router>
         <NavigationBar/>
-        <Layout style={{display:"flex", flexDirection:"column", alignItem:'center', justifyContent:'center'}} fluid={true}>
+        <Layout style={{display:"flex", flexDirection:"column", alignItem:'center', justifyContent:'center'}}>
           <Switch>
             <Route exact={true} path="/"  component={Home} />
             <Route exact={true} path="/about"  component={About} />
