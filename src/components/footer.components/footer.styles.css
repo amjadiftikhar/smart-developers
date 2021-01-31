@@ -9,6 +9,13 @@
     background: black;
     color: white;
 }
+/* section headers */
+.footerHeader {
+    margin-bottom: 0.8em;
+    font-size: 1.3rem;
+    font-weight: 650;
+}
+/* about section styles */
 .footerAboutUs {
     display: flex;
     flex-wrap: wrap;
@@ -16,23 +23,37 @@
     align-items: flex-start;
     width: 12em;
     line-height: 2em;
-}
-.footerHeader {
-    margin-bottom: 0.8em;
-    font-size: 1.3rem;
-    font-weight: 650;
+    font-size: 1rem;
+    font-weight: 450;
 }
 .footerLinks {
     text-decoration: none;
     color: white;
-    font-weight: 400;
 }
 .footerLinks:hover {
     text-decoration: none;
     color: rgb(190, 188, 188);
-    font-weight: bold;
     cursor: pointer;
 }
+/* styles for services section in footer  */
+.footerServices {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    line-height: 2em;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.footerServiceLinks {
+    text-decoration: none;
+    color: white;
+}
+.footerServiceLinks:hover {
+    text-decoration: none;
+    color: white;
+    cursor: default;
+}
+/* styles for social media section */
 .socialMeadia {
     z-index: 1;
     display: flex;
@@ -54,12 +75,7 @@
     border-radius: 50%;
     margin-right: 0.6em;
 }
-.footerServices {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start; 
-    font-weight: 400;
-}
+/* styles for copyright sections */
 .copyRightSection {
     padding: 0.5em 2em 0.5em 2em;
     display: flex;
@@ -111,9 +127,11 @@
     }
     .footerAboutUs {
         margin-top: 1em;
+        align-items: baseline;
     }
     .footerServices {
         margin-top: 1em;
+        align-items: baseline;
     }
     .socialMeadia {
         padding-top: 1em;

@@ -40,14 +40,14 @@ function Footer() {
                 </div> 
                 <div className="footerServices">
                     <h3 className="footerHeader">Services</h3>
-                    <div>Software Development</div>
-                    <div>Custom Software</div>
-                    <div>Full Stack Development</div>
-                    <div>Mobile App Development</div>
-                    <div>CMS</div>
-                    <div>E-commerce</div>
-                    <div>Maintenance & Support</div>
-                    <div>IT Support</div>
+                    <a href="##" className="footerServiceLinks">Software Development</a>
+                    <a href="##" className="footerServiceLinks">Custom Software</a>
+                    <a href="##" className="footerServiceLinks">Full Stack Development</a>
+                    <a href="##" className="footerServiceLinks">Mobile App Development</a>
+                    <a href="##" className="footerServiceLinks">CMS</a>
+                    <a href="##" className="footerServiceLinks">E-commerce</a>
+                    <a href="##" className="footerServiceLinks">Maintenance & Support</a>
+                    <a href="##" className="footerServiceLinks">IT Support</a>
                 </div>
                 <div className="socialMeadia">
                     <h3 className="footerHeader">Social Media</h3> 
