@@ -10,8 +10,7 @@
 /* navigation bar links */
 .nav-link {
   color: black!important;
-  font-weight: bold;
-  font-family: 'Courier New', Courier, monospace;
+  font-size: 16px;
 }
 .nav-link:hover {
   background: rgba(231, 231, 233, 0.8)!important;
@@ -33,9 +32,7 @@
   justify-content: start;
 }
 .companyName {
-  font-size: 1rem;
-  font-weight: bold;
-  font-family: 'Courier New', Courier, monospace;
+  font-size: 16px;
 }
 .logo {
   width: 2.2em;

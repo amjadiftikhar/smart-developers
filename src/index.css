@@ -4,4 +4,5 @@ body {
   box-sizing: border-box;
   background: rgb(231, 231, 233); 
   background: rgba(231, 231, 233, 0.8);
+  font-family: sans-serif;
 }
