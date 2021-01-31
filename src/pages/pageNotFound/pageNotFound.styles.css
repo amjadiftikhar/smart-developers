@@ -1,0 +1,8 @@
+.pageNotFoundContainer {
+    display: flex;
+    padding-top: 10em;
+}
+.errorText {
+    margin: 0 auto;
+    text-align: center;
+}
