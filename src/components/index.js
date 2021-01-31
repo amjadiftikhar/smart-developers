@@ -8,7 +8,7 @@ import NavigationBar from "./navigation.components/NavigationBar";
 import Portfolio from "../pages/portfolio.pages/Portfolio";
 import Services from "../pages/services.pages/ServicesPage";
 import Footer from "./footer.components/Footer";
-import Page404 from "../pages/pageNotFound/PageNotFound";
+import Page404 from "./pageNotFound/PageNotFound";
 
 // exporting all routes from this index file
 export {Home, About, Contact, GetQuote, Layout, 
