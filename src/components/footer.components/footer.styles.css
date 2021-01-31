@@ -100,6 +100,10 @@
         padding: 4em;
         justify-content: center;
     }
+    .footerServices {
+        width: 12em;
+        margin-top: 1em;
+    }
     .socialMeadia {
         padding-top: 1em;
         margin: 0 auto;
@@ -110,6 +114,10 @@
 @media only screen and (max-width: 376px) {
     .footerSection {
         padding: 2em;
+    }
+    .footerServices {
+        width: 12em;
+        margin-top: 1em;
     }
     .socialMeadia {
         padding-top: 1em;
@@ -127,11 +135,10 @@
     }
     .footerAboutUs {
         margin-top: 1em;
-        align-items: baseline;
     }
     .footerServices {
+        width: 12em;
         margin-top: 1em;
-        align-items: baseline;
     }
     .socialMeadia {
         padding-top: 1em;
