@@ -8,7 +8,7 @@ import "./navigation.styles.css";
 const Header = (props) => {
   const {location} = props;
   return (
-    <Navbar expand="lg">
+    <Navbar collapseOnSelect expand="lg">
       <Navbar.Brand href="/">
         <div className="logoImageContainer">
           <div className="logo">
@@ -35,3 +35,7 @@ const Header = (props) => {
 const NavigationBar = withRouter(Header);
 
 export default NavigationBar;
+
+
+
+
