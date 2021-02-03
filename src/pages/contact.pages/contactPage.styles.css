@@ -76,7 +76,7 @@
         width: 100%;
     }
 }
-/* Media query for devices 1024px width */
+/* Media query for devices 768px width */
 @media only screen and (max-width: 768px) {
     .contactContainer {
         margin-top: 6em;
@@ -100,7 +100,7 @@
         width: 100%;
     }
 }
-/* Media query for devices 1024px width */
+/* Media query for devices 414px width */
 @media only screen and (max-width: 414px) {
     .contactContainer {
         margin-top: 6em;
@@ -131,7 +131,7 @@
         width: 100%;
     }
 }
-/* Media query for devices 1024px width */
+/* Media query for devices 376px width */
 @media only screen and (max-width: 376px) {
     .contactContainer {
         margin-top: 6em;
@@ -162,7 +162,7 @@
         width: 100%;
     }
 }
-/* Media query for devices 1024px width */
+/* Media query for devices 320px width */
 @media only screen and (max-width: 320px) {
     .contactContainer {
         margin-top: 8em;
