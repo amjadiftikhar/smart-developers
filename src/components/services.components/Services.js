@@ -97,6 +97,31 @@ function Services() {
                     </div>
                 </div>
             </div>
+            <div className="servicesDetailContainer">
+                <div className="customSoftwareDev">
+                    <h4>Custome Software Development</h4>
+                    <p className="customSoftwareDescription">
+                        Let Smart Developer help you meet your unique business needs successfully. 
+                        Process of custom software development comprises of designing, developing, 
+                        deploying and maintaining software products and services. Software Developer 
+                        will explicate your views by sketching a strategic approach to optimize and 
+                        accomplish each domain of software development process. Our versatile team of 
+                        skilled software developers provide a concrete foundation to develop efficient 
+                        custom software applications with quality results that best suit your specific 
+                        business demands.
+                    </p>                    
+                </div>
+                <div className="hireTeamDetails">
+                    <h4>Hire a dedicated team</h4>
+                    <p className="hireTeamDescription">
+                        Flourish and optimize your business by hiring a dedicated developer or team of 
+                        dedicated software developers. Software Developer provides you with dedicated 
+                        and skilled resources to achieve customized and high performing applications. 
+                        Our professionals have significant insights which benefityour business with high 
+                        performance and timely meeting project deadlines.
+                    </p>                     
+                </div>
+            </div>
         </div>
     );
 }

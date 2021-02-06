@@ -88,6 +88,17 @@
     font-size: 0.9rem; 
     padding: 0.7em;
     text-align: justify;   
+} 
+.servicesDetailContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: white;
+    width: 100%;
+    padding: 2em;
+}
+.servicesDetailContainer p {
+    text-align: justify; 
 }
 /* Media query for devices upto 768px screens */
 @media only screen and (max-width: 768px) {
