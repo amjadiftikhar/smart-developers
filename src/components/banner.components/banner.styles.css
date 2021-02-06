@@ -113,7 +113,12 @@
     .getQuoteSection {
         margin: 0 auto;
         width: 100%;
-    }    
+    } 
+    .devTeam {
+        width: 60%;
+        font-size: 0.6rem;
+        text-align: center;
+    }   
 }
 /* Media query for devices upto 768px screens */
 @media only screen and (max-width: 768px) {
@@ -129,7 +134,12 @@
     .getQuoteSection {
         margin: 0 auto;
         width: 100%;
-    }    
+    } 
+    .devTeam {
+        width: 70%;
+        font-size: 0.6rem;
+        text-align: center;
+    }   
 }
 /* Media query for devices upto 540px screens */
 @media only screen and (max-width: 540px) {
@@ -148,6 +158,11 @@
     }
     .getQuoteSection h2 {
         font-size: 1.5rem;
+    }
+    .devTeam {
+        width: 60%;
+        font-size: 0.6rem;
+        text-align: center;
     }
 }
 /* Media query for devices upto 414px screens */
@@ -171,13 +186,15 @@
         width: 100%;
     }
     .devTeam {
+        width: 78%;
+        font-size: 0.6rem;
         text-align: center;
     }
     .getQuoteSection h2 {
         font-size: 1.5rem;
     }
 }
-/* Media query for devices upto 375px screens */
+/* Media query for devices upto 376px screens */
 @media only screen and (max-width: 376px) {
     .bannerImage {
         height: 75%;
@@ -198,6 +215,8 @@
         width: 100%;
     }
     .devTeam {
+        width: 90%;
+        font-size: 0.6rem;
         text-align: center;
     }
     .getQuoteSection h2 {
@@ -228,8 +247,9 @@
         text-align: center;
     }
     .devTeam {
-        text-align: center;
+        width: 78%;
         font-size: 0.6rem;
+        text-align: center;
     }
     .getQuoteSection h2 {
         font-size: 1.1rem;
