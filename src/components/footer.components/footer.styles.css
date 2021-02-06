@@ -14,7 +14,6 @@
     display: flex;
     flex-direction: column;
     justify-content: start;
-    /* align-items: flex-start; */
 }
 .logoImage img {
     width: 8em;
