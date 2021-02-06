@@ -3,13 +3,23 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding: 1.5em;
+    padding: 3em 1.5em 3em 1.5em;
     width: 100%;
     text-align: center;
     background: black;
     color: white;
 }
 /* section headers */
+.smartDeveloper {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+.logoImage img {
+    width: 8em;
+    height: 8em;
+    border-bottom: 2px solid white;
+}
 .footerHeader {
     margin-bottom: 0.8em;
     font-size: 1.3rem;

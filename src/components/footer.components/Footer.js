@@ -4,6 +4,7 @@ import {FaFacebookF} from "react-icons/fa";
 import {FaLinkedinIn} from "react-icons/fa";
 import {FaTwitter} from "react-icons/fa";
 import {FaInstagramSquare} from "react-icons/fa";
+import logo from "../../images/logo.png";
 import "./footer.styles.css"
 
 function Footer() { 
@@ -23,6 +24,12 @@ function Footer() {
     return (
         <div className="footer">
             <div className="footerSection">
+                <div className="smartDeveloper">
+                    <h3 className="footerHeader">Smart Developer</h3>
+                    <a className="logoImage" href='#'>
+                        <img src={logo} alt="logo pic"/>
+                    </a>                   
+                </div> 
                 <div className="footerAboutUs">
                     <h3 className="footerHeader">About us</h3>
                     <a className="footerLinks" href='#'
@@ -50,7 +57,7 @@ function Footer() {
                     <a href="##" className="footerServiceLinks">IT Support</a>
                 </div>
                 <div className="socialMeadia">
-                    <h3 className="footerHeader">Social Media</h3> 
+                    <h3 className="footerHeader">Follow</h3> 
                     <div className="socialMeadiaLinks">              
                         <a className="footerLinks" 
                             href="https://www.facebook.com/Smart-developer-105134804927431"
