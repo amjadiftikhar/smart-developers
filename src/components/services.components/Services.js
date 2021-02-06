@@ -99,7 +99,7 @@ function Services() {
             </div>
             <div className="servicesDetailContainer">
                 <div className="customSoftwareDev">
-                    <h4>Custome Software Development</h4>
+                    <h4>Custom Software Development</h4>
                     <p className="customSoftwareDescription">
                         Let Smart Developer help you meet your unique business needs successfully. 
                         Process of custom software development comprises of designing, developing, 
