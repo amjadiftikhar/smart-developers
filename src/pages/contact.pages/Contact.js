@@ -1,6 +1,6 @@
 import React from 'react';
 import emailjs from 'emailjs-com';
-import {HiOutlineMail} from "react-icons/hi";
+import { FaPhoneSquareAlt } from "react-icons/fa";
 import {AiOutlineCheckSquare} from "react-icons/ai";
 import ContactForm from "./ContactForm";
 import "./contactPage.styles.css";
@@ -26,13 +26,20 @@ function Contact() {
             <div className="detailSection">
                 <h4 className="query">Get a Quote</h4>
                 <p className="clientInfo">
-                    Based on your business requirements and the information provided, we will be able to calculate cost and time frame, if you like to use our services 
+                    Based on your business requirements and the information provided, we will 
+                    be able to calculate cost and time frame, if you like to use our services 
                 </p>
                 <h4 className="query">Have any other questions?</h4>
                 <p className="clientInfo"> 
-                    {/* <HiOutlineMail/>  */}
-                    We are always very glad to answer any questions, please feel free to fill up the form and send to us.  
+                    We are always very glad to answer any questions, please feel free to 
+                    fill up the form and send to us.  
                 </p>
+                <div className="contactNum">
+                    <span>
+                        <FaPhoneSquareAlt className="freeOffersBtn"/>
+                        +45 71 97 77 99
+                    </span>
+                </div>
                 <div className="offerSection">
                     <span><AiOutlineCheckSquare className="freeOffersBtn"/>
                         Free Quotation
