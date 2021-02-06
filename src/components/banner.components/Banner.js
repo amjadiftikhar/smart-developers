@@ -21,7 +21,7 @@ function Banner() {
             <div className="bannerSection">
                 <div className="motivation">
                     <h2 className="bannerDescription">
-                        WE ARE A TEAM OF PROFESSIONALS WHO BUILDS GREAT SOFTWARE
+                        WE ARE A TEAM OF PROFESSIONALS WHO BUILD GREAT SOFTWARE
                     </h2>
                 </div>
                 <div className="bannerImage">
