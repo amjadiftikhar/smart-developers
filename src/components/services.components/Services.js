@@ -97,7 +97,7 @@ function Services() {
                     </div>
                 </div>
             </div>
-            <div className="servicesDetailContainer">
+            {/* <div className="servicesDetailContainer">
                 <div className="customSoftwareDev">
                     <h4>Custom Software Development</h4>
                     <p className="customSoftwareDescription">
@@ -121,7 +121,7 @@ function Services() {
                         performance and timely meeting project deadlines.
                     </p>                     
                 </div>
-            </div>
+            </div> */}
         </div>
     );
 }

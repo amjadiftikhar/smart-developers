@@ -17,8 +17,10 @@
 }
 .motivation {
     position: absolute;
-    background: rgba(97, 96, 96, 0.8);
+    /* background: rgba(97, 96, 96, 0.8); */
+    /* background: rgba(236, 234, 234, 0.8); */
     color: white;
+    /* color: black; */
     width: 65%;
     align-self: center;
     padding: 3.5em;
@@ -33,6 +35,7 @@
 }
 .bannerDescription {
     text-align: left;
+    font-weight: bold;
 }
 .imageContainer {
     position: relative;
