@@ -14,6 +14,7 @@
     display: flex;
     flex-direction: column;
     justify-content: start;
+    align-items: flex-start;
 }
 .logoImage img {
     width: 8em;
@@ -93,12 +94,39 @@
     font-size: 0.8rem;
     background-color: white;
 }
-/* Media queries for small devices with 540px width */
-@media only screen and (max-width: 540px) {
+/* Media queries for small devices with 768px width */
+@media only screen and (max-width: 768px) {
+    .footerSection {
+        padding: 4em;
+        justify-content: space-between;
+    }
+    .footerAboutUs {
+        justify-content: right;
+        padding-left: 3em;
+    }
     .socialMeadia {
         margin-top: 1em;
         margin-right: auto;
         margin-left: 1.5em;
+    }
+    .socialMeadiaLinks {
+        padding: 0;
+    }
+}
+/* Media queries for small devices with 540px width */
+@media only screen and (max-width: 540px) {
+    .footerSection {
+        padding: 4em;
+        justify-content: space-between;
+    }
+    .footerServices {
+        width: 12em;
+        margin-top: 1em;
+    }
+    .socialMeadia {
+        margin-top: 1em;
+        margin-right: auto;
+        margin-left: 4em;
     }
     .socialMeadiaLinks {
         padding: 0;
@@ -109,6 +137,13 @@
     .footerSection {
         padding: 4em;
         justify-content: center;
+    }
+    .smartDeveloper {
+        width: 12em;
+    }
+    .footerAboutUs {
+        margin-top: 1em;
+        padding-left: 0;
     }
     .footerServices {
         width: 12em;
@@ -124,6 +159,13 @@
 @media only screen and (max-width: 376px) {
     .footerSection {
         padding: 2em;
+    }
+    .smartDeveloper {
+        width: 12em;
+    }
+    .footerAboutUs {
+        margin-top: 1em;
+        padding-left: 0;
     }
     .footerServices {
         width: 12em;
@@ -143,8 +185,12 @@
     .footerSection {
         padding: 2em;
     }
+    .smartDeveloper {
+        width: 12em;
+    }
     .footerAboutUs {
         margin-top: 1em;
+        padding-left: 0;
     }
     .footerServices {
         width: 12em;
