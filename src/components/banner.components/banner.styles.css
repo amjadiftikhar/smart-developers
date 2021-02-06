@@ -73,7 +73,9 @@
     font-size: 0.8rem;
 }
 .devTeam {
+    width: 60%;
     font-size: 0.9rem;
+    text-align: center;
 }
 .getQuoteSection a {
     margin-top: 6em;
