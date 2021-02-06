@@ -42,8 +42,8 @@ function Banner() {
                  {/* data-aos, applying animation on the section */}
                 <div className="getQuoteSection" data-aos="fade-left">
                     <h2>WEB DEVELOPMENT</h2>
-                    <p className="devTeam">Find a development team to 
-                        get the best development solutions
+                    <p className="devTeam">Revolutionize your business ideas using web-development 
+                        services for unique and innovative applications
                     </p>
                     <a href='#' onClick={handleClick}>Contact us</a>
                 </div>
