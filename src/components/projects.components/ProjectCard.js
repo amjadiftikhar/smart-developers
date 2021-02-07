@@ -19,7 +19,7 @@ function ProjectCard(props) {
     return (
         <>
             {/* data-aos, applying animation on the section */}
-            <div className="projectCard" data-aos="fade-up">
+            <div className="projectCard" data-aos="fade-up" id={props.id} onClick={props.onClick} >
                 <div className="projDescriptionSection">
                     <h4 className="projectTitle">
                         {props.projectTitle}
