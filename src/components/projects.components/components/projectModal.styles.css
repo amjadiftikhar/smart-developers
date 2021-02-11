@@ -24,7 +24,7 @@
 }
 
 /* inside modal project section styles */
-.projectTitle {
+.modalProjectTitle {
     border-bottom: 1px solid rgb(201, 200, 200);
     width: 30%;
     text-align: center;
@@ -80,7 +80,7 @@
 
 /* Media query for devices upto 768px screens */
 @media only screen and (max-width: 768px) {
-    .projectTitle {
+    .modalProjectTitle {
         border-bottom: 1px solid rgb(201, 200, 200);
         width: 100%;
         text-align: center;
@@ -114,7 +114,7 @@
         width: 100%;  
         top:55%; 
     } 
-    .projectTitle {
+    .modalProjectTitle {
         border-bottom: 1px solid rgb(201, 200, 200);
         width: 100%;
         text-align: center;
@@ -148,7 +148,7 @@
         width: 100%;  
         top:55%; 
     } 
-    .projectTitle {
+    .modalProjectTitle {
         border-bottom: 1px solid rgb(201, 200, 200);
         width: 100%;
         text-align: center;
@@ -182,7 +182,7 @@
         width: 100%;  
         top:50%; 
     } 
-    .projectTitle {
+    .modalProjectTitle {
         border-bottom: 1px solid rgb(201, 200, 200);
         width: 100%;
         text-align: center;

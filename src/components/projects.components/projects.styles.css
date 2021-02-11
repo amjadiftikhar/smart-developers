@@ -31,6 +31,8 @@
     flex-direction: column; 
     background: rgba(97, 96, 96, 0.8);
     color: white;
+    width: 90%;
+    text-align: center;
 }
 .projectDescription {
     width: 18em;

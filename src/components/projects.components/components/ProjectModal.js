@@ -6,7 +6,7 @@ function ProjectModal({project, handleClose}) {
     return (
         <div className='modal displayBlock' >
             <section className="modalMain">
-                <h1 className='projectTitle'>{project.projectTitle}</h1>
+                <h1 className='modalProjectTitle'>{project.projectTitle}</h1>
                 <div className="projectSection">
                     <div className="projectVisual">
                         <img src={project.projectImage} alt="project image" />
@@ -15,7 +15,7 @@ function ProjectModal({project, handleClose}) {
                         <p> {project.description} </p>
                     </div>  
                 </div>              
-                <button className="closeBtn" onClick={handleClose}>Close</button>
+                <button className="closeBtn" onClick={handleClose}>Back</button>
             </section>
         </div>
     )
