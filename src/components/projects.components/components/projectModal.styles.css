@@ -104,6 +104,40 @@
     }    
 }
 
+/* Media query for devices upto 540px screens */
+@media only screen and (max-width: 540px) {
+    /* .modal {  
+        width:100%;     
+        height: 100%;     
+    }      
+    .modalMain {      
+        width: 100%;  
+        top:50%; 
+    }  */
+    .modalProjectTitle {
+        border-bottom: 1px solid rgb(201, 200, 200);
+        width: 100%;
+        text-align: center;
+    }
+    .projectSection {
+       width: 100%;
+    }
+    .projectVisual {
+        width: 20em;
+    }
+    .projectVisual img {
+        width: 100%;
+    }
+    .projectModalDescription {
+        width: 20em;
+        margin-top: 1em;
+        margin-left: 0;
+    }
+    .closeBtn {
+        margin: 0 auto;
+    }    
+}
+
 /* Media query for devices upto 414px screens */
 @media only screen and (max-width: 414px) {
     .modal {  
@@ -146,7 +180,7 @@
     }      
     .modalMain {      
         width: 100%;  
-        top:55%; 
+        top:50%; 
     } 
     .modalProjectTitle {
         border-bottom: 1px solid rgb(201, 200, 200);
@@ -164,6 +198,7 @@
         height: 10em;
     }
     .projectModalDescription {
+        width: 100%;
         margin-top: 1em;
         margin-left: 0;
     }
@@ -180,7 +215,7 @@
     }      
     .modalMain {      
         width: 100%;  
-        top:50%; 
+        top:45%; 
     } 
     .modalProjectTitle {
         border-bottom: 1px solid rgb(201, 200, 200);
