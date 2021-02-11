@@ -1,0 +1,227 @@
+/* Modal style sections */
+.modal {     
+    position: fixed;     
+    top: 0;     
+    left: 0;     
+    width:100%;     
+    height: 100%;     
+    background: rgba(0, 0, 0, 0.6);   
+}      
+.modalMain {     
+    position:fixed;     
+    background: white;     
+    width: 80%;     
+    height: auto;     
+    top:50%;     
+    left:50%;     
+    transform: translate(-50%,-50%);  
+    padding: 2em; 
+    display: flex;
+    flex-direction: column;
+}      
+.displayBlock {     
+    display: block;   
+}
+
+/* inside modal project section styles */
+.projectTitle {
+    border-bottom: 1px solid rgb(201, 200, 200);
+    width: 30%;
+    text-align: center;
+}
+.projectSection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.projectVisual {
+    width: 25em;
+}
+.projectVisual img {
+    width: 100%;
+    height: 15em;
+    border: 1px solid rgb(201, 200, 200);
+    border-radius: 1em;
+    padding: 1em;
+}
+.projectVisual img:hover {
+    padding: 0;
+}
+.projectModalDescription {
+    width:25em;
+    margin-left: 1em;
+    border: 1px solid rgb(201, 200, 200);
+    border-radius: 1em;
+    padding: 1em;
+}
+.closeBtn {
+    background-color: blue;
+    width: 8em;
+    align-self: flex-end;
+    margin-right: 2em;
+    color: white;
+    border-radius: 5em;
+    border: none;
+}
+.closeBtn:focus {
+    outline: none;
+}
+
+/* Media query for devices upto 1024px screens */
+@media only screen and (max-width: 1024px) {    
+    .projectVisual {
+        width: 20em;
+    }
+    .projectModalDescription {
+        width: 20em;
+        margin-left: 0;
+    }
+}
+
+/* Media query for devices upto 768px screens */
+@media only screen and (max-width: 768px) {
+    .projectTitle {
+        border-bottom: 1px solid rgb(201, 200, 200);
+        width: 100%;
+        text-align: center;
+    }
+    .projectSection {
+       justify-content: center;
+    }
+    .projectVisual {
+        width: 70%;
+    }
+    .projectVisual img {
+        height: 15em;
+    }
+    .projectModalDescription {
+        width: 70%;
+        margin-top: 2em;
+        margin-left: 0;
+    }
+    .closeBtn {
+        margin: 0 auto;
+    }    
+}
+
+/* Media query for devices upto 414px screens */
+@media only screen and (max-width: 414px) {
+    .modal {  
+        width:100%;     
+        height: 100%;     
+    }      
+    .modalMain {      
+        width: 100%;  
+        top:55%; 
+    } 
+    .projectTitle {
+        border-bottom: 1px solid rgb(201, 200, 200);
+        width: 100%;
+        text-align: center;
+    }
+    .projectSection {
+       width: 100%;
+    }
+    .projectVisual {
+        width: 25em;
+    }
+    .projectVisual img {
+        width: 100%;
+        height: 10em;
+    }
+    .projectModalDescription {
+        margin-top: 1em;
+        margin-left: 0;
+    }
+    .closeBtn {
+        margin: 0 auto;
+    }    
+}
+
+/* Media query for devices upto 376px screens */
+@media only screen and (max-width: 376px) {
+    .modal {  
+        width:100%;     
+        height: 100%;     
+    }      
+    .modalMain {      
+        width: 100%;  
+        top:55%; 
+    } 
+    .projectTitle {
+        border-bottom: 1px solid rgb(201, 200, 200);
+        width: 100%;
+        text-align: center;
+    }
+    .projectSection {
+       width: 100%;
+    }
+    .projectVisual {
+        width: 25em;
+    }
+    .projectVisual img {
+        width: 100%;
+        height: 10em;
+    }
+    .projectModalDescription {
+        margin-top: 1em;
+        margin-left: 0;
+    }
+    .closeBtn {
+        margin: 0 auto;
+    }    
+}
+
+/* Media query for devices upto 320px screens */
+@media only screen and (max-width: 320px) {
+    .modal {  
+        width:100%;     
+        height: 100%;     
+    }      
+    .modalMain {      
+        width: 100%;  
+        top:50%; 
+    } 
+    .projectTitle {
+        border-bottom: 1px solid rgb(201, 200, 200);
+        width: 100%;
+        text-align: center;
+    }
+    .projectSection {
+       width: 100%;
+    }
+    .projectVisual {
+        width: 25em;
+    }
+    .projectVisual img {
+        width: 100%;
+        height: 10em;
+    }
+    .projectModalDescription {
+        margin-top: 1em;
+        margin-left: 0;
+    }
+    .closeBtn {
+        margin: 0 auto;
+    }    
+}
+
+/* Media query for devices upto 280px screens */
+@media only screen and (max-width: 280px) {
+    .projectVisual {
+        width: 25em;
+    }
+    .projectVisual img {
+        width: 100%;
+        height: 10em;
+    }
+    .projectModalDescription {
+        width: 100%;
+        margin-top: 1em;
+        margin-left: 0;
+    }
+    .closeBtn {
+        margin: 0 auto;
+    }    
+}
+

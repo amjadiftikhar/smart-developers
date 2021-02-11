@@ -19,8 +19,9 @@ function ProjectCard(props) {
     return (
         <>
             {/* data-aos, applying animation on the section */}
-            <div className="projectCard" data-aos="fade-up">
-                <div className="projDescriptionSection">
+            <div className="projectCard" data-aos="fade-up"  
+                onClick={() => props.onClick(props.projectObject)} >
+                {/* <div className="projDescriptionSection">
                     <h4 className="projectTitle">
                         {props.projectTitle}
                     </h4>
@@ -31,7 +32,7 @@ function ProjectCard(props) {
                         href="" onClick={handleFnc}>
                         {hide ? 'more details...' : 'hide details >>'}                
                     </a>
-                </div>
+                </div> */}
                 <div className="projImageSection">
                     <img className="projectImage" 
                         src={props.projectImage} alt=""

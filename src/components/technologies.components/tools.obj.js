@@ -14,6 +14,7 @@ import android from "../../images/android.png";
 import ios from "../../images/ios.png";
 import mySql from "../../images/mySql.png";
 import postgresql from "../../images/postgresql.png";
+import github from "../../images/github.png";
 
 const toolsObj = [
     {
@@ -79,6 +80,10 @@ const toolsObj = [
     {
         toolName: "Postgresql",
         toolImage: postgresql
+    },
+    {
+        toolName: "Github",
+        toolImage: github
     }
 ];
 
