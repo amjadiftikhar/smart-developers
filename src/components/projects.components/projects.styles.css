@@ -21,9 +21,6 @@
     background-color: white;
     border-radius: 1em;
 }
-.projImageSection {
-    position: relative;
-}
 .projDescriptionSection {
     padding: 0.6em;
     margin-top: 9.5em;
@@ -35,11 +32,9 @@
     background: rgba(97, 96, 96, 0.8);
     color: white;
 }
-.projectImage {
-    width: 20em;
-    height: 24em;
-    margin-bottom: 2em;
-    border-radius: 1em;
+.projectDescription {
+    width: 18em;
+    font-size: 0.8rem;
 }
 .showDescription  {
     text-decoration: none!important;
@@ -49,10 +44,16 @@
 .showDescription:hover {
     color: blue;
 }
-.projectDescription {
-    width: 18em;
-    font-size: 0.8rem;
+.projImageSection {
+    position: relative;
 }
+.projectImage {
+    width: 20em;
+    height: 24em;
+    margin-bottom: 2em;
+    border-radius: 1em;
+}
+
 /* Media query for devices upto 768px screens */
 @media only screen and (max-width: 768px) {
     .caseStudyTitle {
@@ -99,6 +100,7 @@
         height: 25em;
     } 
 }
+
 
 
 
