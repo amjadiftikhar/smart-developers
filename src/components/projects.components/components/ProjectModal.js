@@ -2,9 +2,12 @@ import React from 'react';
 import './projectModal.styles.css'
 
 function ProjectModal({project, handleClose}) {
-    console.log('hello', project.projectTitle)
+    
     return (
-        <div className='modal displayBlock' >
+        <div className='modal displayBlock'  onClick={() => {
+            // close modal when outside of the modal is clicked
+            handleClose()
+            }} >
             <section className="modalMain">
                 <h1 className='modalProjectTitle'>{project.projectTitle}</h1>
                 <div className="projectSection">
