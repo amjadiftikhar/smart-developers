@@ -17,7 +17,7 @@ function Banner() {
         Aos.init({duration: 2000});
     }, [])
     return (
-        <div className="heroSection">
+        <div className="heroSection" data-testid='banner'>
             <div className="bannerSection">
                 <div className="motivation">
                     <h2 className="bannerDescription">
