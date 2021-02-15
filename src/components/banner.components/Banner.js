@@ -45,9 +45,9 @@ function Banner() {
                     <p className="devTeam">Revolutionize your business ideas using web-development 
                         services for unique and innovative applications
                     </p>
-                    <a href='#' onClick={handleClick}>Contact us</a>
+                    <a href='#' onClick={handleClick} data-testid='contactBtn'>Contact us</a>
                 </div>
-            </div>
+            </div> 
         </div>
     )
 }
