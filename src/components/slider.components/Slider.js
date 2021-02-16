@@ -8,10 +8,10 @@ function Slider() {
                 loop={Infinity}
                 wrapper="b"
                 steps={[
-                    "We are specialized in software development", 2000, 
-                    "We build mobile applications, the most powerful tool for any business", 2000,  
-                    "We provide on-site and remote technical support and also personal user support.", 2000,
-                    "At Smart Developers, a dedicated team for a project can be hired", 2000 
+                    "We are specialized in software development", 3000, 
+                    "We build mobile applications, the most powerful tool for any business", 3000,  
+                    "We provide on-site and remote technical support and also personal user support.", 3000,
+                    "At Smart Developers, a dedicated team for a project can be hired", 3000 
                 ]}
             />       
         </div>
