@@ -57,7 +57,7 @@ function Services() {
                             Mobile apps are considered to be one of the most powerful 
                             tools for contacting the target audience in terms of business. 
                             We build windows, ios 
-                            and android apps.With best UI/UX design we ensure to 
+                            and android apps. With best UI/UX design we ensure to 
                             extend the reach of your business to mobile users.                      
                         </p>
                     </div>
@@ -81,7 +81,7 @@ function Services() {
                 <div className="serviceCardContainer">
                     {/* data-aos, applying animation on the section */}
                     <div className="serviceCard" data-aos="fade-left">
-                        <h2 className="cardTitle">Hire a dedicated team or developer</h2>
+                        <h2 className="cardTitle">Dedicated Team/Developer</h2>
                         <img className="serviceImage" src={dedicatedTeam} alt=""/>
                     </div>                   
                     <div className="serviceDescription">
