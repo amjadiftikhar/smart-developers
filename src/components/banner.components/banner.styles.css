@@ -169,6 +169,9 @@
     .imageContainer h2 {
         font-size: 1.5rem;
     }
+    .slider {
+        margin-top: 30%;
+    }
     .getQuoteSection h2 {
         font-size: 1.5rem;
     }
@@ -193,6 +196,11 @@
     }
     .imageContainer h2 {
         font-size: 1.5rem;
+    }
+    .slider {
+        margin-top: 32%;
+        font-size: 1rem;
+        font-weight: 300;
     }
     .getQuoteSection {
         margin: 0 auto;
@@ -222,6 +230,11 @@
     }
     .imageContainer h2 {
         font-size: 1.4rem;
+    }
+    .slider {
+        margin-top: 32%;
+        font-size: 1rem;
+        font-weight: 300;
     }
     .getQuoteSection {
         margin: 0 auto;
@@ -253,6 +266,10 @@
     }
     .imageContainer h2 {
         font-size: 1.1rem;
+    }
+    .slider {
+        margin-top: 32%;
+        font-size: 0.8rem;
     }
     .getQuoteSection {
         margin: 0 auto;
