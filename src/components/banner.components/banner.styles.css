@@ -37,6 +37,16 @@
     text-align: left;
     font-weight: bold;
 }
+/* Styles for the slider component */
+.slider {
+    position: absolute;
+    width: 100%;
+    color: white;
+    text-align: center;
+    margin-top: 28%;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
 .imageContainer {
     position: relative;
     display: flex;

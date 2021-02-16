@@ -5,6 +5,7 @@ import webDev from "../../images/webDev.jpg";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import "./banner.styles.css";
+import Slider from '../slider.components/Slider';
 
 function Banner() {
     let history = useHistory();
@@ -26,6 +27,9 @@ function Banner() {
                 </div>
                 <div className="bannerImage">
                     <img src={bannerImage} alt=""/>
+                </div>                
+                <div className="slider">
+                    <Slider/>
                 </div>
             </div>
             {/* data-aos, applying animation on the section */}
