@@ -18,7 +18,8 @@
     width: 20em;
     height: 24em;
     margin: 4em 0 1em 1em;
-    background-color: white;
+    background-color: white;    
+    cursor: pointer;
     /* border-radius: 1em; */
 }
 .projDescriptionSection {
