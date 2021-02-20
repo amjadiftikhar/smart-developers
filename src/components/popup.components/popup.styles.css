@@ -1,36 +1,10 @@
-/* .popUp {
-    border: 2px solid red;
-    width: 6em;
-    height: 6em;
-    background: white;
-    position: fixed;         
-    background: rgba(0, 0, 0, 0.6);   
-} */
-/* .popUpInner {
-    z-index: 2;
-    position:fixed;     
-    background: white;     
-    width: 5em;     
-    height: 5em;  
-    border-radius: 50%; 
-    text-align: center; 
-    top: 80%;  
-    left: 90%;
-    transform: translate(-50%,-50%); 
-    display: flex;
-    flex-direction: column;
-    box-shadow: 
-    0 0 0 3px hsl(219, 55%, 46%),
-    0 0 0 20px hsl(0, 0%, 90%);
-} */
-
 .popUpInner {
     z-index: 2;
     position: fixed;
     text-align: center;
     padding: 0.4em;
     top: 75%;  
-    left: 88%;
+    left: 88%;    
     width: 100px;
     height: 75px;
     cursor: pointer;
@@ -80,14 +54,12 @@
 /* Media query for devices upto 1024px screens */
 @media only screen and (max-width: 1024px) {
     .popUpInner {
-       /* visibility: hidden; */
        left: 84%;
     }
 }
 /* Media query for devices upto 768px screens */
 @media only screen and (max-width: 768px) {
     .popUpInner {
-       /* visibility: hidden; */
        left: 82%;
     }
 }
