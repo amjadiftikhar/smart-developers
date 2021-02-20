@@ -1,26 +1,37 @@
-import React, {useEffect} from 'react';
-import {Button} from "react-bootstrap";
+import React, {useEffect, useState} from 'react';
+import { useHistory } from 'react-router-dom';
+import './popup.styles.css';
 
 
 export default function Popup() {
-    const [visible, setVisible] = React.useState(false);
-    useEffect(()=>{
-      let pop_status = localStorage.getItem('pop_status');
-      if(!pop_status){
-        setVisible(true);
-        localStorage.setItem('pop_status',10);
-      }
-    },[])
+    const [visible, setVisible] = useState(true);
+
+    let history = useHistory();
+
+    const callContactForm = () => {
+        history.push('/contact')
+    }
+
+    // useEffect(()=>{
+    //   let pop_status = localStorage.getItem('pop_status');
+    //   if(!pop_status){
+    //     setVisible(true);
+    //     localStorage.setItem('pop_status', 30);
+    //   }
+    // },[])
+
     if(!visible) return null;
 
     return (
-        <div className='popUp' onClick={() => setVisible(false)}>
+        <div className='popUp' >
             <div className='popUpInner'>
-                <p>
-                    How can we help you?
+                {/* onClick redirecting to contact page */}
+                <p className='speechBubble' onClick={callContactForm}>
+                  ?
                 </p>
-                <div className='buttonContainer'>
-                    <Button color="danger" className='button'>Okay</Button>
+                {/* onClick disables speech bubble */}
+                <div className='buttonContainer' onClick={() => setVisible(false)}>
+                    x
                 </div>
             </div>   
         </div>
