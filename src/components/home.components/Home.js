@@ -6,12 +6,14 @@ import Projects from "../projects.components/Projects";
 import "./home.styles.css";
 import ScrollToTop from '../scroll.components/ScrollToTop';
 import ScrollToDown from '../scroll.components/ScrollToDown';
+import Popup from '../popup.components/PopUp';
 
 const Home  = () => {
     return (
         <div className="mainContainer">
             <Banner/>
             <Services/> 
+            <Popup/>
             <ScrollToDown/>
             <ScrollToTop/>
             <Projects/>
