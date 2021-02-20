@@ -51,6 +51,9 @@
     cursor: pointer;
     line-height: 0;
 }
+.buttonContainer:hover {
+    font-size: 2rem;
+}
 /* Media query for devices upto 1024px screens */
 @media only screen and (max-width: 1024px) {
     .popUpInner {
