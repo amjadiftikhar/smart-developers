@@ -1,0 +1,21 @@
+{ 
+    "technologies": [ 
+        { "toolName": "Python", "toolImage": "/images/python.png" },
+        { "toolName": "Django", "toolImage": "/images/django.png" },
+        { "toolName": "Java", "toolImage": "/images/java.png" },
+        { "toolName": "PHP", "toolImage": "/images/php.png" },
+        { "toolName": "Laravel", "toolImage": "/images/laravel.png" },
+        { "toolName": "Javascript", "toolImage": "/images/javascript.png" },
+        { "toolName": "Nodejs", "toolImage": "/images/nodejs.png" },
+        { "toolName": "React", "toolImage": "/images/react.png" },
+        { "toolName": "jQuery", "toolImage": "/images/jQuery.png" },
+        { "toolName": "HTML5", "toolImage": "/images/html.png" },
+        { "toolName": "CSS3", "toolImage": "/images/css.png" },
+        { "toolName": "Bootstrap", "toolImage": "/images/bootstrap.png" },
+        { "toolName": "Android", "toolImage": "/images/android.png" },
+        { "toolName": "IOS", "toolImage": "/images/ios.png" },
+        { "toolName": "MySql", "toolImage": "/images/mySql.png" },
+        { "toolName": "Postgresql", "toolImage": "/images/postgresql.png" },
+        { "toolName": "Github", "toolImage": "/images/github.png" }
+    ]    
+} 
