@@ -1,6 +1,6 @@
 import React from 'react';
 import Tool from "./ToolCard";
-import toolsObj from "./tools.obj";
+import toolsData from "../../assets/data.json"
 import "./tool.styles.css";
 
 function Tools() {
@@ -11,7 +11,8 @@ function Tools() {
             </div>
             <div className="toolSection">
                 {
-                toolsObj.map((t, index) => {
+                // map through json for technologies
+                toolsData[0].technologies.map((t, index) => {    
                     return(
                         <Tool key={index} toolName={t.toolName} 
                             toolImage={t.toolImage}
