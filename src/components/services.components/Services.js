@@ -1,5 +1,4 @@
 import React, {useEffect} from 'react';
-
 import softwareServices from "../../images/softwareServices.jpg";
 import softwareDevelopment from "../../images/softwareDevelopment.jpg";
 import mobileDevelopment from "../../images/mobileDevelopment.png";
