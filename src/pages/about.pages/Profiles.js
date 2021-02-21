@@ -1,5 +1,5 @@
 import React from 'react';
-import profilesObj from "./profiles.obj";
+import profileData from "../../assets/data.json";
 import {Container} from "react-bootstrap";
 import ProfileCard from "./ProfileCard";
 
@@ -9,7 +9,8 @@ function Profiles() {
             <h1 className="sectionTitle">MEET OUR TEAM</h1>
             <div className="profilesContainer">
                 {
-                    profilesObj.map((p, index) => {
+                    // map through profile data from json
+                    profileData.profile.map((p, index) => {
                         return(
                             <ProfileCard
                                 key = {index} 
