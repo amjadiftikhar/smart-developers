@@ -20,7 +20,7 @@
     ],    
     "projects": [ 
         {
-            "projectImage": "/images/mobilTilbud.png",
+            "projectImage": "/images/mobilTilbud.jpg",
             "projectTitle": "Mobile Tilbud",
             "description": "MobileTilbud is a website serving danish mobile phone users. Danish telecom companies gets 700000 to 800000 online visiters via refering website and MobileTilbud is one among them. "
         },
@@ -35,7 +35,7 @@
             "description": "Q Recycling aims to reuse and recycle the mobile phone parts and LCDs. We helped Q Recycling develop a system to keep track of their inventory and an easy online solution sale and purchase."
         },
         {
-            "projectImage": "/images/cityCable.PNG",
+            "projectImage": "/images/cityCable.png",
             "projectTitle": "Billing System",
             "description": "City Cable Billing information system helps the company to keep track of all their customer payment, bills, expenses. Helping the user with automatically generating alerts for approaching or past due dates and generating reports."
         },
