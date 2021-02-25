@@ -26,7 +26,6 @@
 }
 /* logo styles */
 .logoImageContainer {
-  /* width: 10em; */
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -35,7 +34,6 @@
 .companyName {
   font-size: 12px;
   color: black;
-  /* line-height: 4px; */
   line-height: 0.5rem;
 }
 .logo {
