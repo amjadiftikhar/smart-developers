@@ -1,11 +1,9 @@
 import React, {useRef, useState} from 'react';
-// import projectsObj from "./projects.obj";
 import projectData from "../../assets/data.json";
 import ProjectCard from "./components/ProjectCard";
 import "./projects.styles.css";
 import ProjectModal from './components/ProjectModal';
 
-// console.log(projectData)
 function Projects() {  
 
    const portfolioSection = useRef(null)
@@ -28,7 +26,7 @@ function Projects() {
             </div>
             <div className="projectSection" ref={portfolioSection}>
                 { 
-                    // projectsObj.map((p, index) => {
+                    // map through project's data from json
                     projectData.projects.map((p, index) => {
                         return (
                             <ProjectCard key={index}
