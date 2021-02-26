@@ -21,7 +21,7 @@ export default function Popup() {
     if(!showBubble) return null;
 
     return (
-        <div className='popUpInner'>
+        <div className='popUpInner' data-testid='popup'>
             {/* onClick redirecting to contact page */}
             <p className='speechBubble' onClick={callContactForm}>
               ?
