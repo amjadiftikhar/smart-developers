@@ -22,7 +22,7 @@ function Footer() {
         history.push("/contact");
     }
     return (
-        <div className="footer">
+        <div className="footer" data-testid='footer'>
             <div className="footerSection">
                 <div className="smartDeveloper">
                     <h3 className="footerHeader">Smart Developer</h3>
