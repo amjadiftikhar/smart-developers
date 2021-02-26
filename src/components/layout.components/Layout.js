@@ -4,7 +4,7 @@ import "./layout.styles.css";
 
 const Layout = (props) => {
     return (
-        <Container style={{minHeight:"80vh"}} fluid={true}>
+        <Container style={{minHeight:"80vh"}} fluid={true} data-testid='layout'>
             {props.children}
         </Container> 
     )
