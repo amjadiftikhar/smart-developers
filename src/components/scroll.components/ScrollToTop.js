@@ -23,7 +23,7 @@ function ScrollToTop() {
 
     return (
         <div className="scrollToTop cursorPointer text-center"
-            onClick={scrollTop} >
+            onClick={scrollTop} data-testid='scrollToTop'>
             <FaArrowUp className="icon"/>
         </div>
     )
