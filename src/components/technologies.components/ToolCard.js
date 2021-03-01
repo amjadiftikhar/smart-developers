@@ -11,7 +11,7 @@ function Tool(props) {
     return (
         <>
             {/* data-aos, applying animation on the section */}
-            <div className="toolCard" data-aos="fade-left">
+            <div className="toolCard" data-aos="fade-left" data-testid='toolCard'>
                 <img className="toolImage" src={props.toolImage} alt=""/>
                 <span className="toolName">{props.toolName}</span>
             </div>
