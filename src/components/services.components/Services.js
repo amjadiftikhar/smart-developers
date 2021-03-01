@@ -17,7 +17,7 @@ function Services() {
     }, [])  
 
     return (
-        <div className="serviceContainer">
+        <div className="serviceContainer" data-testid='services'>
             <div className="serviceHeaderSection">
                 <div className="servicesTitle">
                         <h2 className="caseStudyDescription">OUR SERVICES</h2>
