@@ -3,7 +3,7 @@ import Typical from "react-typical";
 
 function Slider() {
     return (
-        <div>
+        <div data-testid='slider'>
             <Typical
                 loop={Infinity}
                 wrapper="b"
