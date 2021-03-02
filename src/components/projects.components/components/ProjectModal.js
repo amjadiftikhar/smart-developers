@@ -4,7 +4,7 @@ import './projectModal.styles.css'
 function ProjectModal({project, handleClose}) {
     
     return (
-        <div className='modal displayBlock'  onClick={() => {
+        <div className='modal displayBlock' data-testid='modalId'  onClick={() => {
             // close modal when outside of the modal is clicked
             handleClose()
             }} >

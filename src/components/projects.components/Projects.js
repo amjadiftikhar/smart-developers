@@ -20,7 +20,7 @@ function Projects() {
    }
 
     return (
-        <div className="projectsContainer" >
+        <div className="projectsContainer" data-testid='projectId' >
             <div className="caseStudyTitle">
                 <h2 className="caseStudyDescription">OUR PROJECTS</h2>
             </div>
