@@ -19,7 +19,7 @@ function ProjectCard(props) {
     return (
         <>
             {/* data-aos, applying animation on the section */}
-            <div className="projectCard" data-aos="fade-up"  
+            <div className="projectCard" data-aos="fade-up" data-testid='projectCard' 
                 onClick={() => props.onClick(props.projectObject)} 
             >
                 <div className="projDescriptionSection">
