@@ -22,7 +22,7 @@ function Contact() {
         }
 
     return (
-        <div className="contactContainer">
+        <div className="contactContainer" data-testid='contactId'>
             <div className="detailSection">
                 <h4 className="query">Get a Quote</h4>
                 <p className="clientInfo">
