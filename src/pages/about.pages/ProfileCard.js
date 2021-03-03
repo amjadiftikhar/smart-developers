@@ -3,7 +3,7 @@ import "./about.styles.css";
 
 function Profile(props) {
     return (
-        <div className="profileCard">
+        <div className="profileCard" data-testid='profileCardId'>
             <div className="profileImage">
                 <img className="profilePic" src={props.profileImage} 
                     alt="profile image"/>
