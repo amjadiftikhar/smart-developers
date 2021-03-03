@@ -2,7 +2,7 @@ import React from 'react';
 import {Form, Col, Button} from "react-bootstrap";
 import "./contactPage.styles.css";
 
-function Contact(props) {
+function ContactForm(props) {
     return (
         <Form className="contactForm" onSubmit={props.sendEmail}>
             <Form.Row className="nameEmail">
@@ -39,4 +39,4 @@ function Contact(props) {
     )
 }
 
-export default Contact
+export default ContactForm
