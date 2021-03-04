@@ -4,7 +4,7 @@ import "./contactPage.styles.css";
 
 function ContactForm(props) {
     return (
-        <Form className="contactForm" onSubmit={props.sendEmail}>
+        <Form className="contactForm" onSubmit={props.sendEmail} data-testid='contactFormId'>
             <Form.Row className="nameEmail">
                 <Form.Group as={Col} controlId="formGridEmail">
                     <Form.Label>Name</Form.Label>
