@@ -5,7 +5,7 @@ import Profiles from './Profiles';
 
 const About = () => {
     return (
-        <Container className="aboutContainer">
+        <Container className="aboutContainer" data-testid='aboutId'>
             <p className="objective">
              <span style={{fontSize:'16px', fontWeight: 550}}>SMART DEVELOPER</span> is a startup 
                 based in Copenhagen. An extended team of professionals with expertise in Software 
