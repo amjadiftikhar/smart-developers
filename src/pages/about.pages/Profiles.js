@@ -5,7 +5,7 @@ import ProfileCard from "./ProfileCard";
 
 function Profiles() {
     return (
-        <Container className="profileSection">
+        <Container className="profileSection" data-testid='profilesId'>
             <h1 className="sectionTitle">MEET OUR TEAM</h1>
             <div className="profilesContainer">
                 {
