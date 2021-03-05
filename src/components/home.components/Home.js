@@ -10,7 +10,7 @@ import Popup from '../popup.components/PopUp';
 
 const Home  = () => {
     return (
-        <div className="mainContainer">
+        <div className="mainContainer" data-testid='homeId'>
             <Banner/>
             <Services/> 
             <Popup/>
