@@ -1,4 +1,5 @@
 import React from 'react';
+import { MemoryRouter } from 'react-router-dom';
 import {fireEvent, render} from '@testing-library/react';
 import Banner from './Banner';
 
@@ -14,9 +15,19 @@ describe('contact button test', () => {
         const contactButton = getByTestId('contactBtn');
         expect(contactButton).toBeTruthy();
     })
+
+    const mockOnClick = jest.fn()
+    jest.mock('react-router-dom', () => ({
+        ...jest.requireActual('react-router-dom'),
+        useHistory: () => ({
+          push: mockOnClick,
+        }),
+      }));
+      
     it('clicking redirects', () => {
-        const {getByTestId} = render(<Banner/>);
-        const contactButton = getByTestId('contactBtn');
-        // fireEvent.click(contactButton)
+        const {queryByTestId} = render( <MemoryRouter> <Banner onClick={mockOnClick}/> </MemoryRouter> );
+        const contactTestButton = queryByTestId('contactBtn');
+        fireEvent.click(contactTestButton)
+        // expect(mockOnClick).toHaveBeenCalledWith('/contact')
     })
 })
