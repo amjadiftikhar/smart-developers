@@ -67,15 +67,15 @@ function Footer() {
                         <a className="footerLinks" 
                             href="https://www.linkedin.com/company/smart-developer-copenhagen/"
                             target="_blank">
-                                <FaLinkedinIn className="socialMediaIcon"/>
-                            </a>
-                            <a className="footerLinks" href="#">
+                            <FaLinkedinIn className="socialMediaIcon"/>
+                        </a>
+                        {/* <a className="footerLinks" href="#">
                             <FaTwitter className="socialMediaIcon"/>
                         </a>
                         <a className="footerLinks" href="#"
-                        target="_blank">
+                            target="_blank">
                             <FaInstagramSquare className="socialMediaIcon"/>
-                        </a> 
+                        </a>  */}
                     </div>              
                 </div>
             </div>
