@@ -41,7 +41,11 @@ function Projects() {
                     })   
                         
                 }
-            </div>  {showActiveProject  && <ProjectModal project={activeProject} handleClose={hideModal} />}
+            </div>  
+            {
+                showActiveProject  && 
+                <ProjectModal project={activeProject} handleClose={hideModal} />
+            }
         </div>  
     ) 
 }
