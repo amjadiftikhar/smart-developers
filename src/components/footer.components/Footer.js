@@ -69,13 +69,6 @@ function Footer() {
                             target="_blank">
                             <FaLinkedinIn className="socialMediaIcon"/>
                         </a>
-                        {/* <a className="footerLinks" href="#">
-                            <FaTwitter className="socialMediaIcon"/>
-                        </a>
-                        <a className="footerLinks" href="#"
-                            target="_blank">
-                            <FaInstagramSquare className="socialMediaIcon"/>
-                        </a>  */}
                     </div>              
                 </div>
             </div>
