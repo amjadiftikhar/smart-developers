@@ -12,6 +12,7 @@
 }
 .scrollToDown:hover {
     text-rendering: "Scroll down";
+    cursor: pointer;
 }
 .iconDown {
     font-size: 19px;
