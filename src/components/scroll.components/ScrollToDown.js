@@ -22,7 +22,9 @@ function ScrollToDown() {
     const scrollDown = () => window.scrollTo({top: 600, behavior: 'smooth' })
 
     return (
-        <div className="scrollToDown cursorPointer text-center" onClick={scrollDown} data-testid='scrollToDown'>
+        <div className="scrollToDown cursorPointer text-center" 
+            onClick={scrollDown} data-testid='scrollToDown'
+        >
             <FaArrowDown className="iconDown"/>
         </div>
     )
