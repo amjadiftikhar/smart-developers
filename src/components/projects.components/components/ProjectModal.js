@@ -5,7 +5,7 @@ function ProjectModal({project, handleClose}) {
     
     return (
         <div className='modal displayBlock' onClick={() => {
-            // close modal when outside of the modal is clicked
+            // close modal when one clicks outside of the modal 
             handleClose()
             }} >
             <section className="modalMain">
