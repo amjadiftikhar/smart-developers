@@ -27,15 +27,15 @@ function Projects() {
             <div className="projectSection" ref={portfolioSection}>
                 { 
                     // map through project's data from json
-                    projectData.projects.map((p, index) => {
+                    projectData.projects.map((proj, index) => {
                         return (
                             <ProjectCard key={index}
-                                projectObject={p}
+                                projectObject={proj}
                                 onClick={showModal}
-                                id={p.id}
-                                projectImage={p.projectImage}
-                                projectTitle={p.projectTitle}
-                                description={p.description} 
+                                id={proj.id}
+                                projectImage={proj.projectImage}
+                                projectTitle={proj.projectTitle}
+                                description={proj.description} 
                             />
                         )
                     })   
