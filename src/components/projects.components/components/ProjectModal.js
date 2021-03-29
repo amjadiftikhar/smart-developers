@@ -4,10 +4,9 @@ import './projectModal.styles.css'
 function ProjectModal({project, handleClose}) {
     
     return (
-        <div className='modal displayBlock' onClick={() => {
+        <div className='modal displayBlock' 
             // close modal when one clicks outside of the modal 
-            handleClose()
-            }} >
+            onClick={() => { handleClose() }} >
             <section className="modalMain">
                 <h1 className='modalProjectTitle'>{project.projectTitle}</h1>
                 <div className="projectSection">
