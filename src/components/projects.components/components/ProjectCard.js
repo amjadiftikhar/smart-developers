@@ -3,19 +3,20 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 
 function ProjectCard(props) {
-    const [projDescription, toggleProjDescription] = useState(false)
-    const [hide, setHide] = useState(true)
+    // const [projDescription, toggleProjDescription] = useState(false)
+    // const [hide, setHide] = useState(true)
 
     useEffect(() => {
         Aos.init({duration: 2000});        
     }, [projDescription])
 
     // function to set toggle states
-    function handleFnc(e){
-        e.preventDefault();
-        toggleProjDescription(projDescription => !projDescription);
-        setHide (hide => !hide )    
-    }
+    // function handleFnc(e){
+    //     e.preventDefault();
+    //     toggleProjDescription(projDescription => !projDescription);
+    //     setHide (hide => !hide )    
+    // }
+
     return (
         <>
             {/* data-aos, applying animation on the section */}
