@@ -27,7 +27,8 @@ export default function Popup() {
               ?
             </p>
             {/* onClick disables speech bubble */}
-            <div className='buttonContainer' onClick={() => setShowBubble(false)}>
+            <div className='buttonContainer' 
+                onClick={() => setShowBubble(false)}>
                 x
             </div>
         </div>  
