@@ -11,7 +11,7 @@
     flex-wrap: wrap;
     padding: 2em;
 }
-.projectCard {    
+.projectCard { 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -20,7 +20,10 @@
     margin: 4em 0 1em 1em;
     background-color: white;    
     cursor: pointer;
-    /* border-radius: 1em; */
+}
+.projectCard:hover {
+    /* width: 30em; */
+    background: rgba(97, 96, 96, 0.8);
 }
 .projDescriptionSection {
     padding: 1.3em;
@@ -50,7 +53,7 @@
     position: relative;
 }
 .projectImage {
-    width: 20em;
+    width: 100%;
     height: 24em;
     margin-bottom: 2em;
 }
