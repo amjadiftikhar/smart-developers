@@ -6,7 +6,7 @@ function ProjectCard(props) {
 
     useEffect(() => {
         Aos.init({duration: 2000});        
-    }, [projDescription])
+    }, [])
 
     return (
         <>
@@ -22,7 +22,7 @@ function ProjectCard(props) {
 
                 <div className="projImageSection">
                     <img className="projectImage" 
-                        src={props.projectImage} alt=""
+                        src={props.projectImage} alt="project image"
                     />
                 </div>
             </div>
