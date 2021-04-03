@@ -22,7 +22,6 @@
     cursor: pointer;
 }
 .projectCard:hover {
-    /* width: 30em; */
     background: rgba(97, 96, 96, 0.8);
 }
 .projDescriptionSection {
