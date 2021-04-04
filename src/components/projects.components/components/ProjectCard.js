@@ -19,7 +19,6 @@ function ProjectCard(props) {
                         {props.projectTitle}
                     </h4>
                 </div>
-
                 <div className="projImageSection">
                     <img className="projectImage" 
                         src={props.projectImage} alt="project image"
