@@ -22,6 +22,7 @@
     align-self: center;
     padding: 3.5em;
 }
+
 /* main section styles and lower section of hero section */
 .mainSection {
     display: flex;
@@ -34,6 +35,7 @@
     text-align: left;
     font-weight: bold;
 }
+
 /* Styles for the slider component */
 .slider {
     position: absolute;
@@ -66,6 +68,7 @@
     width: 100%;
     padding: 3em;
 }
+
 /* styles for the quote section which directs to contact form */
 .getQuoteSection {
     display: flex;
@@ -110,6 +113,7 @@
 .getQuoteSection a:hover {
     color: white;
 }
+
 /* Media query for devices upto 1024px screens */
 @media only screen and (max-width: 1024px) {
     .motivation {
@@ -131,6 +135,7 @@
         text-align: center;
     }   
 }
+
 /* Media query for devices upto 768px screens */
 @media only screen and (max-width: 768px) {
     .motivation {
@@ -152,6 +157,7 @@
         text-align: center;
     }   
 }
+
 /* Media query for devices upto 540px screens */
 @media only screen and (max-width: 540px) {
     .motivation {
@@ -179,6 +185,7 @@
         text-align: center;
     }
 }
+
 /* Media query for devices upto 414px screens */
 @media only screen and (max-width: 414px) {
     .bannerImage {
@@ -213,6 +220,7 @@
         font-size: 1.5rem;
     }
 }
+
 /* Media query for devices upto 376px screens */
 @media only screen and (max-width: 376px) {
     .bannerImage {
@@ -247,6 +255,7 @@
         font-size: 1.4rem;
     }
 }
+
 /* Media query for devices upto 320px screens */
 @media only screen and (max-width: 320px) {
     .motivation {
