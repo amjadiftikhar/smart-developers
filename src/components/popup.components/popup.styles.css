@@ -57,42 +57,49 @@
     color: white;
     opacity: 1;
 }
+
 /* Media query for devices upto 1024px screens */
 @media only screen and (max-width: 1024px) {
     .popUpInner {
        left: 84%;
     }
 }
+
 /* Media query for devices upto 768px screens */
 @media only screen and (max-width: 768px) {
     .popUpInner {
        left: 82%;
     }
 }
+
 /* Media query for devices upto 540px screens */
 @media only screen and (max-width: 540px) {
     .popUpInner {
        visibility: hidden;
     }
 }
+
 /* Media query for devices upto 414px screens */
 @media only screen and (max-width: 414px) {
     .popUpInner {
        visibility: hidden;
     }
 }
+
 /* Media query for devices upto 376px screens */
 @media only screen and (max-width: 376px) {
     .popUpInner {
        visibility: hidden;
     }
 }
+
 /* Media query for devices upto 320px screens */
 @media only screen and (max-width: 320px) {
     .popUpInner {
        visibility: hidden;
     }
 }
+
 /* Media query for devices upto 280px screens */
 @media only screen and (max-width: 280px) {
     .popUpInner {
