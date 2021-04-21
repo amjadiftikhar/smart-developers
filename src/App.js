@@ -1,7 +1,8 @@
 import React from "react";
 import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
 import {NavigationBar, Home, About, Contact, 
-  Layout, Portfolio, Services, Footer, Page404} from "./components"
+  Layout, Portfolio, Services, Footer, Page404, 
+  PortfolioCatalog} from "./components"
 import './App.css';
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
             <Route exact={true} path="/services"  component={Services} />
             <Route exact={true} path="/portfolio"  component={Portfolio} />
             <Route exact={true} path="/contact"  component={Contact} />
+            <Route exact={true} path="/portfolio-catalog" component={PortfolioCatalog} />
             <Route path="*" component={Page404} />
           </Switch>
         </Layout>

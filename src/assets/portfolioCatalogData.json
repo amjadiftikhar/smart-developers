@@ -1,0 +1,26 @@
+{
+    "portfolioCatalog": [
+        {
+            "image": "/images/portfolio-professional.png",
+            "name": "Professional",
+            "price": "250 DKK / år",
+            "link": "https://tb2500.github.io/thim-broggler/",
+            "video": "/videos/portfolio-professional-1.mp4"
+        },
+        {
+            "image": "/images/portfolio-social.png",
+            "name": "Social",
+            "price": "250 DKK / år",
+            "link": "https://amjadiftikhar.netlify.app/",
+            "video": "/videos/portfolio-social.mp4"
+
+        },
+        {
+            "image": "/images/portfolio-simple.png",
+            "name": "Simple Elegant",
+            "price": "200 DKK / år",
+            "link": "https://www.faisalakhlaq.com/",
+            "video": "/videos/portfolio-simple.mp4"
+        }
+    ]
+}
