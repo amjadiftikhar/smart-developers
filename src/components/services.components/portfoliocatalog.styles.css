@@ -1,0 +1,98 @@
+.pcPageSection {
+    display: flex;
+    margin-top: 7em;
+    flex-direction: row;
+}
+.pcIndividual{
+    /* border: 2px solid red; */
+    /* width: 25em; */
+    margin-bottom: 2em;
+    padding: 2em;
+    background-color: white;
+    box-shadow: 
+    12px 12px 16px 0 rgba(255, 255, 255, 0.3) inset,
+    -8px -8px 12px 0 rgba(0, 0, 0, .10) inset;
+}
+.pcAlignCenter{
+    align-items: center;
+    text-align: center;
+}
+.pcPriceAndLink{
+    /* border: 2px solid yellow; */
+    display: flex;
+    flex-direction: column;
+}
+.pcContainer{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.pcDescription{
+    margin: 2em 0 2em 0;
+}
+.pcVideo{
+    width: 25em; 
+    height: 15.6em;
+}
+.pcLinkBtn{
+    height: 1.9em;
+    width: 10em;
+    text-align: center;
+    padding: 0;
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+    margin-top: .5em;
+}
+.pcLinkBtn a:focus {
+    outline: none !important;
+}
+.pcLinkBtn:hover {
+    text-decoration: none;
+}
+
+.pc-title {
+    background: rgba(177, 175, 175, 0.8);
+    color: white;
+    width: 50%;
+    padding: 1.5em;
+    margin-top: 1em;
+    /* TODO align this item in the middle */
+}
+@media only screen and (max-width: 768px) {
+    .pc-title {
+        width: 100%;
+        text-align: center;
+    }
+    .pcPageSection{
+        flex-direction: column;
+    }
+    .pcContainer{
+        /* border: 2px solid black; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
+/* Media query for devices upto 414px screens */
+@media only screen and (max-width: 414px) {
+    .pc-title {
+        width: 100%;
+        text-align: center;
+    }
+}
+/* Media query for devices upto 376px screens */
+@media only screen and (max-width: 376px) {
+    .pc-title {
+        width: 100%;
+        text-align: center;
+    }  
+}
+/* Media query for devices upto 320px screens */
+@media only screen and (max-width: 320px) {
+    .pc-title {
+        width: 100%;
+        text-align: center;
+    }
+}
