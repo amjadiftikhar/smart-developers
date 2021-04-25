@@ -1,7 +1,7 @@
 import React from 'react';
 import "./about.styles.css";
 
-function Profile(props) {
+const Profile = (props) => {
     return (
         <div className="profileCard" data-testid='profileCardId'>
             <div className="profileImage">
