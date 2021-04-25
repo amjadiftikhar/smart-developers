@@ -3,7 +3,7 @@ import {Container} from "react-bootstrap";
 
 import "./pageNotFound.styles.css";
 
-function PageNotFound() {
+const PageNotFound = () => {
     return (
         <Container className="pageNotFoundContainer" data-testid='pageNotFoundId'>
             <div className="errorText">
