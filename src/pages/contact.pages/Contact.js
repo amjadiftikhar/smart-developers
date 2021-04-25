@@ -5,7 +5,7 @@ import {AiOutlineCheckSquare} from "react-icons/ai";
 import ContactForm from "./ContactForm";
 import "./contactPage.styles.css";
 
-function Contact() {
+const Contact = () => {
 
     function sendEmail(e) {
         e.preventDefault();
