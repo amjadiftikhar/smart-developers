@@ -3,7 +3,7 @@ import profileData from "../../assets/data.json";
 import {Container} from "react-bootstrap";
 import ProfileCard from "./ProfileCard";
 
-function Profiles() {
+const Profiles = () => {
     return (
         <Container className="profileSection" data-testid='profilesId'>
             <h1 className="sectionTitle">MEET OUR TEAM</h1>
