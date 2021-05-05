@@ -7,7 +7,7 @@ const About = () => {
     return (
         <Container className="aboutContainer" data-testid='aboutId'>
             <p className="objective">
-             <span className="description" style={{}}>SMART DEVELOPER</span> is a startup 
+             <span className="description">SMART DEVELOPER</span> is a startup 
                 based in Copenhagen. An extended team of professionals with expertise in Software 
                 and Web-development. We transform ideas into concrete products by implementing smart 
                 solutions to problems. Smart Developer is a development hub, we develop custom 
