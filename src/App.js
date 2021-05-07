@@ -8,7 +8,7 @@ import './App.css';
 const App = () => {
 
   return (
-    <React.Fragment >
+    <>
       <Router>
         <NavigationBar/>
         <Layout id="apps">
@@ -24,7 +24,7 @@ const App = () => {
         </Layout>
       <Footer/>  
       </Router>      
-    </React.Fragment>
+    </>
   );
 }
 
