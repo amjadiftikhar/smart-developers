@@ -5,7 +5,7 @@ import {NavigationBar, Home, About, Contact,
   PortfolioCatalog} from "./components"
 import './App.css';
 
-function App() {
+const App = () => {
 
   return (
     <React.Fragment >
