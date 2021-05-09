@@ -1,6 +1,6 @@
 import React from 'react';
 import PortfolioCatalog from "../../components/services.components/PortfolioCatalog";
-import "./portfolioCatalogPage.styles.css"
+import "./portfolioCatalogPage.styles.css";
 
 const PortfolioCatalogPage = () => {
     return (
