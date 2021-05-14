@@ -10,4 +10,4 @@ const PortfolioCatalogPage = () => {
     )
 }
 
-export default PortfolioCatalogPage
+export default PortfolioCatalogPage;
