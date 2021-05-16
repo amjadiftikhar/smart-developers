@@ -15,7 +15,7 @@ const Contact = () => {
             alert('Thank you for reaching out')
             console.log(result.text + 'funciona');
           }, (error) => {
-            alert("Please try again!")
+            alert("Please try again!");
             console.log(error.text + 'no funciona');
           });
           e.target.reset();
