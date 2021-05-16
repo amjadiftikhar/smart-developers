@@ -6,4 +6,4 @@ test('ContactForm renders', () => {
   const {getByTestId} = render(<ContactForm/>);
   const contactFormComponent = getByTestId('contactFormId');
   expect(contactFormComponent).toBeInTheDocument();
-})
+});
