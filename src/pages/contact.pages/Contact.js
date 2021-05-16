@@ -12,7 +12,7 @@ const Contact = () => {
         emailjs.sendForm('service_yh0l2gh', 'template_5hqobku', 
         e.target, 'user_Ane2n8QteW2k8F4HWdDKu')
           .then((result) => {
-            alert('Thank you for reaching out')
+            alert('Thank you for reaching out');
             console.log(result.text + 'funciona');
           }, (error) => {
             alert("Please try again!");
