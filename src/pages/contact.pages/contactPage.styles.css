@@ -136,6 +136,7 @@
         width: 100%;
     }
 }
+
 /* Media query for devices 376px width */
 @media only screen and (max-width: 376px) {
     .contactContainer {
