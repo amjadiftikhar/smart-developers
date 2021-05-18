@@ -3,6 +3,7 @@ import {Form, Col, Button} from "react-bootstrap";
 import "./contactPage.styles.css";
 
 const ContactForm = (props) => {
+    
     return (
         <Form className="contactForm" onSubmit={props.sendEmail} data-testid='contactFormId'>
             <Form.Row className="nameEmail">
