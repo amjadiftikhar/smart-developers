@@ -4,6 +4,7 @@ import {Container} from "react-bootstrap";
 import ProfileCard from "./ProfileCard";
 
 const Profiles = () => {
+
     return (
         <Container className="profileSection" data-testid='profilesId'>
             <h1 className="sectionTitle">MEET OUR TEAM</h1>
@@ -23,7 +24,7 @@ const Profiles = () => {
                 }
             </div>
         </Container>
-    )
+    );
 }
 
 export default Profiles;
