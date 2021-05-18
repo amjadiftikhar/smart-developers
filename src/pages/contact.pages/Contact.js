@@ -8,7 +8,9 @@ import "./contactPage.styles.css";
 const Contact = () => {
 
     function sendEmail(e) {
+
         e.preventDefault();
+
         emailjs.sendForm('service_yh0l2gh', 'template_5hqobku', 
         e.target, 'user_Ane2n8QteW2k8F4HWdDKu')
           .then((result) => {
@@ -19,7 +21,7 @@ const Contact = () => {
             console.log(error.text + 'no funciona');
           });
           e.target.reset();
-        }
+    }
 
     return (
         <div className="contactContainer" data-testid='contactId'>
@@ -53,7 +55,7 @@ const Contact = () => {
                 <ContactForm sendEmail={sendEmail}/>         
             </div>
         </div>
-    )
+    );
 }
 
 export default Contact;
