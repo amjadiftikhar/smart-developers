@@ -2,7 +2,7 @@ import React from 'react';
 import "./about.styles.css";
 
 const Profile = (props) => {
-    
+
     return (
         <div className="profileCard" data-testid='profileCardId'>
             <div className="profileImage">
@@ -14,7 +14,7 @@ const Profile = (props) => {
                 <p className="personalInformation"> {props.personalInfo} </p>
             </div>
         </div>
-    )
+    );
 }
 
 export default Profile;
