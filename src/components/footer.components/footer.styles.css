@@ -98,6 +98,7 @@
     font-size: 0.8rem;
     background-color: white;
 }
+
 /* Media queries for small devices with 768px width */
 @media only screen and (max-width: 768px) {
     .footerSection {
