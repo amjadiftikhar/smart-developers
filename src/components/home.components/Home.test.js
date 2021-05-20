@@ -6,4 +6,4 @@ test('Home renders', () => {
   const {getByTestId} = render(<Home/>);
   const homeComponent = getByTestId('homeId');
   expect(homeComponent).toBeInTheDocument();
-})
+});
