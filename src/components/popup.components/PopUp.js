@@ -15,7 +15,7 @@ export default function Popup() {
 
     useEffect(() => {
         setTimeout(() => {
-            setShowBubble(true)            
+            setShowBubble(true);            
         }, 3000);
     }, []);
 
