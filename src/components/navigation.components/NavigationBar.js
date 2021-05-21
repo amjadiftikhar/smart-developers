@@ -5,8 +5,9 @@ import { withRouter } from "react-router";
 import {LinkContainer} from 'react-router-bootstrap';
 import "./navigation.styles.css";
 
-const Header = (props) => {
+const Header = (props) => {  
   const {location} = props;
+  
   return (
     <Navbar collapseOnSelect expand="lg">
       <Navbar.Brand href="/">
