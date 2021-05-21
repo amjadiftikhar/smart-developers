@@ -6,4 +6,4 @@ test('PopUpInner renders', () => {
   const {queryByText} = render(<PopUp/>);
   const linkElement = queryByText('popup');
   expect(linkElement).toBeNull();
-})
+});
