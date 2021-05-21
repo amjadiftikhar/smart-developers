@@ -10,7 +10,7 @@ export default function Popup() {
     let history = useHistory();
 
     const callContactForm = () => {
-        history.push('/contact')
+        history.push('/contact');
     }
 
     useEffect(() => {
