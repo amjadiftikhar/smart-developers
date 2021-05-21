@@ -33,5 +33,5 @@ export default function Popup() {
                 x
             </div>
         </div>  
-    )
+    );
 }
