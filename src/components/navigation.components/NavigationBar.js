@@ -15,7 +15,9 @@ const Header = (props) => {
           <div className="logo">
             <img className="companyLogo" src={logo} alt="logo"/>
           </div>
-           <div className="companyName">Smart Developer</div>
+            <div className="companyName">
+             Smart Developer
+            </div>
         </div>       
       </Navbar.Brand>
       <Navbar.Toggle className="toggle bg-light" 
