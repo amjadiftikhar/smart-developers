@@ -4,6 +4,7 @@ import './popup.styles.css';
 
 
 export default function Popup() {
+    
     const [showBubble, setShowBubble] = useState(false);
 
     let history = useHistory();
