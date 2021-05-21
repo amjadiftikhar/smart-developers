@@ -25,6 +25,7 @@
 .active:hover {
   color: black!important;
 }
+
 /* logo styles */
 .logoImageContainer {
   display: flex;
