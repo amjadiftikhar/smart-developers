@@ -21,6 +21,7 @@
     "projects": [ 
         {
             "projectImage": "/images/mobilTilbud.jpg",
+            "projectVideo": "/videos/mobilTilbud.webm",
             "projectTitle": "Mobile Tilbud",
             "description": "MobileTilbud is a website serving danish mobile phone users. Danish telecom companies gets 700000 to 800000 online visiters via refering website and MobileTilbud is one among them. "
         },
