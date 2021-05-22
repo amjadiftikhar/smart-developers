@@ -37,7 +37,7 @@ function Projects() {
                                 projectTitle={proj.projectTitle}
                                 description={proj.description} 
                             />
-                        )
+                        );
                     })   
                         
                 }
