@@ -108,6 +108,7 @@
         margin: 1em 0 1em 0;
     } 
 }
+
 /* Media query for devices upto 320px screens */
 @media only screen and (max-width: 320px) {
     .caseStudyTitle {
