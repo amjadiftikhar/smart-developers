@@ -20,9 +20,13 @@ function ProjectCard(props) {
                     </h4>
                 </div>
                 <div className="projImageSection">
-                    <img className="projectImage" 
-                        src={props.projectImage} alt="project image"
-                    />
+                    {/* <img className="projectImage" 
+                        src={props.projImage} alt="project image"
+                    /> */}
+                    <video className="projectImage" 
+                        controls loop autoPlay muted >
+                        <source src={props.projectVideo} />
+                    </video>
                 </div>
             </div>
         </>
