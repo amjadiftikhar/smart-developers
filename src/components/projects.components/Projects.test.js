@@ -6,4 +6,4 @@ test('Projects renders', () => {
   const {getByTestId} = render(<Projects/>);
   const projectComponent = getByTestId('projectId');
   expect(projectComponent).toBeInTheDocument();
-})
+});
