@@ -33,6 +33,7 @@ function Projects() {
                                 projectObject={proj}
                                 onClick={showModal}
                                 id={proj.id}
+                                projectVideo={proj.projectVideo}
                                 projectImage={proj.projectImage}
                                 projectTitle={proj.projectTitle}
                                 description={proj.description} 
