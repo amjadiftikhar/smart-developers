@@ -9,9 +9,15 @@ function ProjectModal({project, handleClose}) {
             onClick={() => { handleClose() }} >
             <section className="modalMain">
                 <h1 className='modalProjectTitle'>{project.projectTitle}</h1>
-                <div className="projectSection">
-                    <div className="projectVisual">
+                <div className="modalProjectSection">
+                    {/* <div className="projectVisual">
                         <img src={project.projectImage} alt="project image" />
+                    </div> */}
+                    <div className="projectVisual">
+                        <video className="projectImage" 
+                            controls loop autoPlay muted >
+                            <source src={project.projectVideo} />
+                        </video>
                     </div>
                     <div className="projectModalDescription">
                         <p> {project.description} </p>
