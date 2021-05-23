@@ -38,17 +38,14 @@
             "description": "Q Recycling aims to reuse and recycle the mobile phone parts and LCDs. We helped Q Recycling develop a system to keep track of their inventory and an easy online solution sale and purchase."
         },
         {
-            "projectImage": "/images/cityCable.png",
-            "projectTitle": "Billing System",
-            "description": "City Cable Billing information system helps the company to keep track of all their customer payment, bills, expenses. Helping the user with automatically generating alerts for approaching or past due dates and generating reports."
-        },
-        {
             "projectImage": "/images/amgsac.png",
+            "projectVideo": "/videos/amgsac.webm",
             "projectTitle": "AMGSAC",
             "description": "AMGSAC is a website built, designed, and maintained for a school. It presents information about the school, exam results, admission procedures, fee structure and much more."
         },
         {
             "projectImage": "/images/pakSiasat.png",
+            "projectVideo": "/videos/pakSiasat.webm",
             "projectTitle": "Pak Siasat",
             "description": "Paksiasat is raising political awareness among people in particular through media and intellectual engagement with public affairs."
         },
@@ -63,11 +60,6 @@
             "projectVideo": "/videos/pkInsaf.webm",
             "projectTitle": "PK Insaf",
             "description": "PKINSAF is an online news website featuring news articles and videos from different news and media sites."
-        },
-        {
-            "projectImage": "/images/easyMoney.PNG",
-            "projectTitle": "Easy Transfer",
-            "description": "Commission Calculator is a solution for money transfer agents. An agent uses different schemes to send and receive customers money which can be thousands of transactions on a daily basis."
         }
     ],
     "profile": [
