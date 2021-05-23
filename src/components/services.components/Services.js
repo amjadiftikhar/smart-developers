@@ -23,7 +23,7 @@ function Services() {
                         <h2 className="caseStudyDescription">OUR SERVICES</h2>
                 </div>
                 <div className="softwareServiceImage">
-                        <img src={softwareServices} alt=""/>
+                        {/* <img src={softwareServices} alt=""/> */}
                 </div>
             </div>
             <div className="serviceSection">  
