@@ -81,46 +81,172 @@
 .pcLinkBtn:hover {
     text-decoration: none;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
     .pCatalogTitle {
-        width: 100%;
-        text-align: center;
+        /* width: 100%; */
     }
-    .pcPageSection{
-        flex-direction: column;
+    .catalogDescription {
+        /* border: 2px solid red; */
+        /* width: 100%;*/
+        text-align: justify; 
+    }  
+    .offerTitle {
+        /* margin-top: 1em;
+        font-size: 1.5rem; */
     }
-    .pcContainer{
-        /* border: 2px solid black; */
+    .offerSection ul {
+        /* border: 2px solid yellow; */
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+    }  
+    .catalogCard {
+        /* border: 2px solid red; */
+        width: 20em;        
+    }
+}
+@media only screen and (max-width: 768px) {
+    .pCatalogTitle {
+        /* width: 100%; */
+    }
+    .catalogDescription {
+        /* border: 2px solid red; */
+        /* width: 100%;
+        text-align: justify; */
+    }  
+    .offerTitle {
+        /* margin-top: 1em;
+        font-size: 1.5rem; */
+    }
+    .offerSection ul {
+        /* border: 2px solid yellow; */
+        display: flex;
+        flex-direction: column;
+    }  
+    .catalogCard {
+        /* border: 2px solid red; */
+        width: 21em;        
+    }
+}
+@media only screen and (max-width: 540px) {
+    .pCatalogTitle {
+        width: 60%;
+    }
+    .catalogDescription {
+        /* border: 2px solid red; */
+        width: 60%;
+        text-align: justify; 
+    }  
+    .offerTitle {
+        /* margin-top: 1em;*/
+        font-size: 1.3rem; 
+        text-align: left;
+    }
+    .offerSection ul {
+        /* border: 2px solid yellow; */
+        display: flex;
+        flex-direction: column;
+    }  
+    .catalogCard {
+        /* border: 2px solid red; */
+        width: 32em;        
     }
 }
 /* Media query for devices upto 414px screens */
 @media only screen and (max-width: 414px) {
     .pCatalogTitle {
         width: 100%;
-        text-align: center;
+    }
+    .catalogDescription {
+        /* border: 2px solid red; */
+        width: 100%;
+        text-align: justify;
+    }  
+    .offerTitle {
+        margin-top: 1em;
+        font-size: 1.5rem;
+    }
+    .offerSection ul {
+        /* border: 2px solid yellow; */
+        display: flex;
+        flex-direction: column;
+    }  
+    .catalogCard {
+        /* border: 2px solid red; */
+        width: 23em;        
     }
 }
 /* Media query for devices upto 376px screens */
 @media only screen and (max-width: 376px) {
     .pCatalogTitle {
         width: 100%;
-        text-align: center;
+    }
+    .catalogDescription {
+        /* border: 2px solid red; */
+        width: 100%;
+        text-align: justify;
     }  
+    .offerTitle {
+        margin-top: 1em;
+        font-size: 1.5rem;
+    }
+    .offerSection ul {
+        /* border: 2px solid yellow; */
+        display: flex;
+        flex-direction: column;
+    }  
+    .catalogCard {
+        /* border: 2px solid red; */
+        width: 22em;        
+    }
+
 }
 /* Media query for devices upto 320px screens */
 @media only screen and (max-width: 320px) {
-    .pc-title {
+    .pCatalogTitle {
         width: 100%;
-        text-align: center;
+    }
+    .catalogDescription {
+        /* border: 2px solid red; */
+        width: 100%;
+        text-align: justify;
+    }  
+    .offerTitle {
+        margin-top: 1em;
+        font-size: 1.5rem;
+    }
+    .offerSection ul {
+        /* border: 2px solid yellow; */
+        display: flex;
+        flex-direction: column;
+    }  
+    .catalogCard {
+        /* border: 2px solid red; */
+        width: 18em;        
     }
 }
 /* Media query for devices upto 280px screens */
 @media only screen and (max-width: 280px) {
     .pCatalogTitle {
         width: 100%;
-        text-align: center;
+        padding: 0.5em;
+        font-size: 1.2rem;
+    }
+    .catalogDescription {
+        /* border: 2px solid red; */
+        width: 100%;
+        text-align: justify;
+    }  
+    .offerTitle {
+        margin-top: 1em;
+        font-size: 1.5rem;
+    }
+    .offerSection ul {
+        /* border: 2px solid yellow; */
+        display: flex;
+        flex-direction: column;
+    }  
+    .catalogCard {
+        /* border: 2px solid red; */
+        width: 16em;        
     }
 }
