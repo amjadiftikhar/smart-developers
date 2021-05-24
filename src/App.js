@@ -18,7 +18,7 @@ const App = () => {
             <Route exact={true} path="/services"  component={Services} />
             <Route exact={true} path="/portfolio"  component={Portfolio} />
             <Route exact={true} path="/contact"  component={Contact} />
-            <Route exact={true} path="/portfolio-catalog" component={PortfolioCatalog} />
+            <Route exact={true} path="/portfolioCatalog" component={PortfolioCatalog} />
             <Route path="*" component={Page404} />
           </Switch>
         </Layout>
