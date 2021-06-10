@@ -17,15 +17,6 @@ function PortfolioCatalog() {
                     from filling your data in the choosen portfolio to
                     customizing it and setting it up on the internet.
                 </p>
-                {/* <p><b>What I get in price</b>
-                    <ul>
-                        <li>A brand new portfolio</li>
-                        <li>A domain with your own name of choice</li>
-                        <li>Your portfolio hosting</li>
-                        All in one price.
-                    </ul>
-                </p> */}
-                
             </div>
 
             <div className="offerSection">
