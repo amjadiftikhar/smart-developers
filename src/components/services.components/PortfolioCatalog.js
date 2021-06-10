@@ -25,7 +25,6 @@ function PortfolioCatalog() {
                     <li>A brand new portfolio</li>
                     <li>A domain with your own name of choice</li>
                     <li>Your portfolio hosting</li>
-                    {/* All in one price. */}
                 </ul>
             </div>
 
