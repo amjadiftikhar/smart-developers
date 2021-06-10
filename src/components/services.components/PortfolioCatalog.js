@@ -1,7 +1,6 @@
 import {GiPriceTag} from "react-icons/gi";
 import {FaExternalLinkSquareAlt} from "react-icons/fa";
 import portfolioCatalogData from "../../assets/portfolioCatalogData.json";
-// import "../projects.components/projects.styles.css";
 import "./portfoliocatalog.styles.css"
 import React from "react";
 
