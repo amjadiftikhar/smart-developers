@@ -31,7 +31,6 @@
 }
 .catalogContainer {
     width: 100%;
-    /* border: 2px solid black; */
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
