@@ -71,8 +71,6 @@
 }
 @media only screen and (max-width: 1024px) {
     .catalogDescription {
-        /* border: 2px solid red; */
-        /* width: 100%;*/
         text-align: justify; 
     } 
     .offerSection ul {
