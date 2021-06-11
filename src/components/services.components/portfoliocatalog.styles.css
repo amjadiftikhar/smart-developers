@@ -128,7 +128,6 @@
         font-size: 1.5rem;
     }
     .offerSection ul {
-        /* border: 2px solid yellow; */
         display: flex;
         flex-direction: column;
     }  
