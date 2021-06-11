@@ -84,9 +84,6 @@
     }
 }
 @media only screen and (max-width: 768px) {
-    .pCatalogTitle {
-        /* width: 100%; */
-    }
     .offerSection ul {
         /* border: 2px solid yellow; */
         display: flex;
