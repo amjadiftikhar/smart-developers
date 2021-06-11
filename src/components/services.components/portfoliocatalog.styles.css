@@ -132,7 +132,6 @@
         flex-direction: column;
     }  
     .catalogCard {
-        /* border: 2px solid red; */
         width: 23em;        
     }
 }
