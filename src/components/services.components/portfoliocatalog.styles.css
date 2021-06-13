@@ -181,6 +181,7 @@
         width: 18em;        
     }
 }
+
 /* Media query for devices upto 280px screens */
 @media only screen and (max-width: 280px) {
     .pCatalogTitle {
