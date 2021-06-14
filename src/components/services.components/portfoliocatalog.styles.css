@@ -91,6 +91,8 @@
         width: 21em;        
     }
 }
+
+/* Media query for devices upto 540px screens */
 @media only screen and (max-width: 540px) {
     .pCatalogTitle {
         width: 60%;
