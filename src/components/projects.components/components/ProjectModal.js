@@ -1,5 +1,5 @@
 import React from 'react';
-import './projectModal.styles.css'
+import './projectModal.styles.css';
 
 function ProjectModal({project, handleClose}) {
     
