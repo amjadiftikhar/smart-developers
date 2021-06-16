@@ -6,18 +6,18 @@ import ProjectModal from './components/ProjectModal';
 
 function Projects() {  
 
-   const portfolioSection = useRef(null)
-   const [activeProject, setActiveProject] = useState('') 
-   const [showActiveProject, setShowActiveProject] = useState(false)
+    const portfolioSection = useRef(null)
+    const [activeProject, setActiveProject] = useState('') 
+    const [showActiveProject, setShowActiveProject] = useState(false)
 
-   const showModal = (projectObject) => {
+    const showModal = (projectObject) => {
         setActiveProject(projectObject)
         setShowActiveProject(true)
-   }
+    }
 
-   const hideModal = () => {
-       setShowActiveProject(false)
-   }
+    const hideModal = () => {
+        setShowActiveProject(false)
+    }
 
     return (
         <div className="projectsContainer" data-testid='projectId' >
@@ -48,7 +48,7 @@ function Projects() {
                 <ProjectModal project={activeProject} handleClose={hideModal} />
             }
         </div>  
-    ) 
+    ); 
 }
 
 export default Projects;
