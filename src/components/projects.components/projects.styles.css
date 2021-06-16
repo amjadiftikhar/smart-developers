@@ -32,7 +32,6 @@
     margin: 3em 3em 1em 1em;
     background-color: white;    
     cursor: pointer;
-    /* transition: box-shadow .3s; */    
     position: relative;
     -webkit-transition: all 200ms ease-in;
     -webkit-transform: scale(1); 
