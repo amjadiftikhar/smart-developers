@@ -7,10 +7,6 @@
 }
 .projectSection {
     width: 100%;
-    /* display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex; */
     display: flex;
     flex-wrap: wrap;
     /* align-items: center; */
