@@ -54,6 +54,7 @@
     cursor: pointer;
     line-height: 0;
 }
+
 .buttonContainer:hover {
     font-size: 1.8rem;
     background: black;
