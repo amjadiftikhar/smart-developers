@@ -46,6 +46,7 @@
     from {transform: rotate(0deg);}
     to {transform: rotate(360deg);}
 }
+
 .buttonContainer {
     color: red;
     font-size: 1.5rem;
