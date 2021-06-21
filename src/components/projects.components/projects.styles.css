@@ -55,6 +55,7 @@
     transition: all 200ms ease-in;
     transform: scale(1.5);
 }
+
 .projDescriptionSection {
     padding: 1.3em;
     text-align:justify;
