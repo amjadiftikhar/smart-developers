@@ -79,9 +79,11 @@
     font-size: 0.8rem;
     color: white;
 }
+
 .showDescription:hover {
     color: blue;
 }
+
 .projImageSection {
     position: relative;
 }
