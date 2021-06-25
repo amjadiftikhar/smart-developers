@@ -7,7 +7,7 @@
     height: 100%;     
     background: rgba(0, 0, 0, 0.6);   
 }  
-    
+
 .modalMain {     
     position:fixed;     
     background: white;     
@@ -19,7 +19,8 @@
     padding: 2em; 
     display: flex;
     flex-direction: column;
-}      
+} 
+     
 .displayBlock {     
     display: block;   
 }
