@@ -1,8 +1,9 @@
 import React, {useRef, useState} from 'react';
 import projectData from "../../assets/data.json";
 import ProjectCard from "./components/ProjectCard";
-import "./projects.styles.css";
 import ProjectModal from './components/ProjectModal';
+
+import "./projects.styles.css";
 
 function Projects() {  
 
