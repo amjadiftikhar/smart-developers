@@ -5,7 +5,7 @@ import ProjectModal from './components/ProjectModal';
 
 import "./projects.styles.css";
 
-function Projects() {  
+const Projects  = () => {  
 
     const portfolioSection = useRef(null)
     const [activeProject, setActiveProject] = useState('') 
