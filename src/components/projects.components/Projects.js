@@ -13,7 +13,7 @@ const Projects  = () => {
 
     const showModal = (projectObject) => {
         setActiveProject(projectObject);
-        setShowActiveProject(true)
+        setShowActiveProject(true);
     }
 
     const hideModal = () => {
