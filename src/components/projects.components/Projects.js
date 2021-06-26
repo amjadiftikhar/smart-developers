@@ -12,7 +12,7 @@ const Projects  = () => {
     const [showActiveProject, setShowActiveProject] = useState(false)
 
     const showModal = (projectObject) => {
-        setActiveProject(projectObject)
+        setActiveProject(projectObject);
         setShowActiveProject(true)
     }
 
