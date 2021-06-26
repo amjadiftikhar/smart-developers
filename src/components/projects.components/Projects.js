@@ -7,7 +7,7 @@ import "./projects.styles.css";
 
 const Projects  = () => {  
 
-    const portfolioSection = useRef(null)
+    const portfolioSection = useRef(null);
     const [activeProject, setActiveProject] = useState('') 
     const [showActiveProject, setShowActiveProject] = useState(false)
 
