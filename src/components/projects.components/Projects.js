@@ -9,7 +9,7 @@ const Projects  = () => {
 
     const portfolioSection = useRef(null);
     const [activeProject, setActiveProject] = useState('');
-    const [showActiveProject, setShowActiveProject] = useState(false)
+    const [showActiveProject, setShowActiveProject] = useState(false);
 
     const showModal = (projectObject) => {
         setActiveProject(projectObject);
