@@ -8,7 +8,7 @@ import dedicatedTeam from "../../images/dedicatedTeam.png";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
-import "./service.styles.css"
+import "./service.styles.css";
 
 function Services() {  
     
