@@ -14,7 +14,7 @@ function Services() {
     
     useEffect(() => {
         Aos.init({duration: 2000});
-    }, [])  
+    }, []); 
 
     return (
         <div className="serviceContainer" data-testid='services'>
