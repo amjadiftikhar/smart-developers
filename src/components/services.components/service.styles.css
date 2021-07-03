@@ -38,6 +38,7 @@
     flex-wrap: wrap;
     justify-content: center;
 }
+
 .serviceCardContainer {
     display: flex;
     justify-content: space-around;
