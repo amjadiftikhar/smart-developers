@@ -96,6 +96,7 @@
         margin: 1.8em;
     }
 }
+
 /* Media query for devices upto 414px screens */
 @media only screen and (max-width: 414px) {
     .objective {
