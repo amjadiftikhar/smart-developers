@@ -88,6 +88,7 @@
         margin: 1.8em;
     }
 }
+
 @media only screen and (max-width: 500px) {
     .objective {
         width: 85%;
