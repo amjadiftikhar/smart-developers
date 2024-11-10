@@ -59,12 +59,12 @@ function Footer() {
                     <div className="socialMeadiaLinks">              
                         <a className="footerLinks" 
                             href="https://www.facebook.com/Smart-developer-105134804927431"
-                            target="_blank">
+                            target="_blank" rel="noopener noreferrer">
                             <FaFacebookF className="socialMediaIcon"/>                            
                         </a>
                         <a className="footerLinks" 
                             href="https://www.linkedin.com/company/smart-developer-copenhagen/"
-                            target="_blank">
+                            target="_blank" rel="noopener noreferrer">
                             <FaLinkedinIn className="socialMediaIcon"/>
                         </a>
                     </div>              

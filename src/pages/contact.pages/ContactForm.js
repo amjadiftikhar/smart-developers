@@ -22,7 +22,7 @@ const ContactForm = (props) => {
                 <Form.Group as={Col} controlId="formGridAddress1">
                     <Form.Label>Phone number (optional)</Form.Label>
                     <Form.Control className="inputFields" name="contact_number"
-                        className="inputFields" placeholder="Contact number" />
+                        placeholder="Contact number" />
                 </Form.Group>
             </Form.Row>
             <Form.Row>
