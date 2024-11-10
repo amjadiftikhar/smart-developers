@@ -2,8 +2,6 @@ import React from 'react';
 import { useHistory } from "react-router-dom";
 import {FaFacebookF} from "react-icons/fa";
 import {FaLinkedinIn} from "react-icons/fa";
-import {FaTwitter} from "react-icons/fa";
-import {FaInstagramSquare} from "react-icons/fa";
 import logo from "../../images/logo.png";
 import "./footer.styles.css"
 
