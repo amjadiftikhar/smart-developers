@@ -16,6 +16,11 @@
     flex-direction: column;
     justify-content: start;
 }
+/* .logoImage img {
+    width: 6em;
+    height: 6em;
+    border-bottom: 2px solid white;
+} */
 .logoImage img {
     width: 6em;
     height: 6em;

@@ -24,35 +24,35 @@ function Footer() {
             <div className="footerSection">
                 <div className="smartDeveloper">
                     <h3 className="footerHeader">Smart Developer</h3>
-                    <a className="logoImage" href='#'>
+                    <span className="logoImage" >
                         <img src={logo} alt="logo pic"/>
-                    </a>                   
+                    </span>                   
                 </div> 
                 <div className="footerAboutUs">
                     <h3 className="footerHeader">About us</h3>
-                    <a className="footerLinks" href='#'
+                    <span className="footerLinks" 
                         onClick={handleClickPortfolio}>
                         Portfolio
-                    </a>
-                    <a className="footerLinks" href='#'
+                    </span>
+                    <span className="footerLinks" 
                         onClick={handleClickAbout}>
                         Team
-                    </a>
-                    <a className="footerLinks" href='#'
+                    </span>
+                    <span className="footerLinks" 
                         onClick={handleClickContact}>
                         Contact
-                    </a>
+                    </span>
                 </div> 
                 <div className="footerServices">
                     <h3 className="footerHeader">Services</h3>
-                    <a href="##" className="footerServiceLinks">Software Development</a>
-                    <a href="##" className="footerServiceLinks">Custom Software</a>
-                    <a href="##" className="footerServiceLinks">Full Stack Development</a>
-                    <a href="##" className="footerServiceLinks">Mobile App Development</a>
-                    <a href="##" className="footerServiceLinks">CMS</a>
-                    <a href="##" className="footerServiceLinks">E-commerce</a>
-                    <a href="##" className="footerServiceLinks">Maintenance & Support</a>
-                    <a href="##" className="footerServiceLinks">IT Support</a>
+                    <span className="footerServiceLinks">Software Development</span>
+                    <span className="footerServiceLinks">Custom Software</span>
+                    <span className="footerServiceLinks">Full Stack Development</span>
+                    <span className="footerServiceLinks">Mobile App Development</span>
+                    <span className="footerServiceLinks">CMS</span>
+                    <span className="footerServiceLinks">E-commerce</span>
+                    <span className="footerServiceLinks">Maintenance & Support</span>
+                    <span className="footerServiceLinks">IT Support</span>
                 </div>
                 <div className="socialMeadia">
                     <h3 className="footerHeader">Follow</h3> 

@@ -11,7 +11,8 @@
     color: white;
     background: black;
     border-radius: 50px / 40px;
-    background: linear-gradient(top, black, black);
+    /* background: linear-gradient(top, black, black); */
+    background: linear-gradient(to left, #ff7e5f, #feb47b);
 }
 
 /* creates triangle */

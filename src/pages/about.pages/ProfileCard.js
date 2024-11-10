@@ -7,7 +7,7 @@ const Profile = (props) => {
         <div className="profileCard" data-testid='profileCardId'>
             <div className="profileImage">
                 <img className="profilePic" src={props.profileImage} 
-                    alt="profile image"/>
+                    alt="profile"/>
             </div>
             <div className="profileDetails">
                 <h5> {props.profileTitle} </h5>

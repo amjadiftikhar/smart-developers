@@ -90,7 +90,7 @@
     font-size: 0.9rem;
     text-align: center;
 }
-.getQuoteSection a {
+.getQuoteSection > button {
     margin-top: 6em;
     height: 1.9em;
     width: 10em;
@@ -107,7 +107,7 @@
     12px 12px 16px 0 rgba(255, 255, 255, 0.3) inset,
     -8px -8px 12px 0 rgba(0, 0, 0, .25) inset;
 }
-.getQuoteSection a:focus {
+.getQuoteSection button:focus {
     outline: none !important;
 }
 .getQuoteSection a:hover {
